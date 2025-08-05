@@ -44,22 +44,7 @@ python card_generator.py
 - "외식 할인이 많은 카드 추천해줘"
 - "주유 할인 혜택이 있는 카드 찾아줘"
 
-## 🔧 문제 해결
 
-### API 키 오류
-```bash
-# 환경변수 확인
-echo $OPENAI_API_KEY
-
-# 재설정
-export OPENAI_API_KEY="sk-your-api-key-here"
-```
-
-### 패키지 오류
-```bash
-pip install --upgrade pip
-pip install -r requirements.txt
-```
 
 ## 📁 주요 파일
 
