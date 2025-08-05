@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2025-08-05T16:28:59.599791",
+    "question": "군인 추천 카드",
+    "card_type": "check",
+    "card_name": "나라사랑체크카드",
+    "keyword": "공공/지원"
+  },
+  {
+    "timestamp": "2025-08-05T16:55:37.904882",
+    "question": "나이든 할머니 할아버지에게 추천",
+    "card_type": "credit",
+    "card_name": "KB손해보험 마이펫카드",
+    "keyword": "교육/건강"
+  }
+]

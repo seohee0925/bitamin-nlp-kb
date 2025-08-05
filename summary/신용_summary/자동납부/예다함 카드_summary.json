@@ -1,0 +1,17 @@
+{
+  "card_name": "예다함 카드",
+  "card_type": "신용카드",
+  "keyword": "자동납부",
+  "brand": "MASTER, JCB(K-WORLD)",
+  "target_user": "본인 + 가족",
+  "benefits": [
+    "예다함 상조부금 자동이체 시 전월 실적 30만 원 이상이면 12,000원 할인, 70만 원 이상이면 17,000원 할인"
+  ],
+  "benefit_conditions": [
+    "전월 실적 30만 원 이상 시 할인 적용",
+    "최초 카드 사용등록일로부터 다음 달 말일까지 실적 유예기간 제공"
+  ],
+  "fee": "K-World(JCB타입)과 국내외겸용(Master) 모두 연회비 15,000원, 연회비 면제조건 없음",
+  "overseas_usage": "해외에서 사용 가능",
+  "release_date": "2018.03.02"
+}

@@ -1,0 +1,17 @@
+{
+  "card_name": "스타트럭Ⅱ GS칼텍스카드",
+  "card_type": "신용카드",
+  "keyword": "Biz/공공",
+  "brand": "MASTER, JCB(K-World)",
+  "target_user": "본인",
+  "benefits": [
+    "GS칼텍스 화물특화 주유소에서 경유 주유 시 전월 기준리터 충족 여부에 따라 리터당 40원 또는 80원 할인"
+  ],
+  "benefit_conditions": [
+    "전월 1일~말일 기준 GS칼텍스 주유소에서 주유한 주유량으로 산정",
+    "차량의 톤수에 따라 기준리터가 다르게 적용"
+  ],
+  "fee": "국내전용(K-WORLD(JCB))와 국내외겸용(MASTER) 카드에 대해 연회비는 없습니다.",
+  "overseas_usage": "해외에서 사용 가능",
+  "release_date": "2018.06.11"
+}

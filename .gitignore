@@ -1,0 +1,49 @@
+# 환경변수 파일
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 임시 파일
+*.tmp
+*.temp
+
+# 로그 파일
+*.log
+
+# 데이터 파일 (필요에 따라 조정)
+# *.csv
+# *.json
+# embeddings/
+
+# API 키 및 민감한 정보
+*.key
+secrets.json 

@@ -1,0 +1,18 @@
+{
+  "card_name": "KMVNO 알뜰폰 카드",
+  "card_type": "신용카드",
+  "keyword": "통신",
+  "brand": "국내, Master, JCB(K-WORLD)",
+  "target_user": "본인 + 가족",
+  "benefits": [
+    "KMVNO 알뜰폰 통신요금 자동이체 시 전월 실적 30만 원 이상일 경우 월 1만2천 원 할인, 70만 원 이상일 경우 월 1만7천 원 할인"
+  ],
+  "benefit_conditions": [
+    "전월 실적 30만 원 이상 시 1만2천 원 할인",
+    "전월 실적 70만 원 이상 시 1만7천 원 할인",
+    "최초 카드 사용 등록일로부터 다음 달 말일까지 전월 실적이 없어도 1구간 할인 적용"
+  ],
+  "fee": "Local 15,000원, Master 15,000원, JCB(K-WORLD) 15,000원이며 초회/차기년도 연회비 면제 없음",
+  "overseas_usage": "해외에서 사용 가능",
+  "release_date": "2022.07.29"
+}

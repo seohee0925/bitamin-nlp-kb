@@ -1,0 +1,20 @@
+{
+  "card_name": "KB Pay 챌린지+카드",
+  "card_type": "신용카드",
+  "keyword": "전가맹점",
+  "brand": "MASTER, UPI, 국내",
+  "target_user": "본인",
+  "benefits": [
+    "KB Pay 3회 이용 시 포인트리 1천점 적립, 월간 적립한도 5만점",
+    "매주 일요일~토요일 매일 1회 이상 KB Pay 이용 시 주 단위로 포인트리 1천점 적립",
+    "당월 실적 80만원 이용 시 포인트리 4천점 적립"
+  ],
+  "benefit_conditions": [
+    "KB Pay 이용 횟수 1만원 이상 이용, 동일가맹점 1일 1회에 한함",
+    "취소로 인해 주 단위로 매일 1회 이상 이용 조건이 충족되지 않은 경우 포인트리 적립 불가",
+    "당월 실적 기준: 당월 1일~말일 승인금액 기준"
+  ],
+  "fee": "일반카드: Local 및 Master, K-world(UPI) 모두 연회비 3만원, 모바일 단독카드: Local 및 Master, K-world(UPI) 모두 연회비 2만 4천원, 초회/차기년도 연회비 면제 없음",
+  "overseas_usage": "해외에서 사용 가능",
+  "release_date": "2021.05.18"
+}

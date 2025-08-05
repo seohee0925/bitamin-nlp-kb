@@ -1,0 +1,248 @@
+[
+  {
+    "card_name": "KB국민 노리2 체크카드",
+    "card_type": "체크카드",
+    "keyword": "할인",
+    "index": 0
+  },
+  {
+    "card_name": "우리동네체크카드_키뮤",
+    "card_type": "체크카드",
+    "keyword": "할인",
+    "index": 1
+  },
+  {
+    "card_name": "트래블러스 체크카드",
+    "card_type": "체크카드",
+    "keyword": "할인",
+    "index": 2
+  },
+  {
+    "card_name": "노리체크카드",
+    "card_type": "체크카드",
+    "keyword": "할인",
+    "index": 3
+  },
+  {
+    "card_name": "노리2체크카드_Play",
+    "card_type": "체크카드",
+    "keyword": "할인",
+    "index": 4
+  },
+  {
+    "card_name": "청춘대로싱글체크카드",
+    "card_type": "체크카드",
+    "keyword": "할인",
+    "index": 5
+  },
+  {
+    "card_name": "팡팡KB체크카드",
+    "card_type": "체크카드",
+    "keyword": "할인",
+    "index": 6
+  },
+  {
+    "card_name": "우리동네체크카드",
+    "card_type": "체크카드",
+    "keyword": "할인",
+    "index": 7
+  },
+  {
+    "card_name": "KB 틴업 체크카드",
+    "card_type": "체크카드",
+    "keyword": "할인",
+    "index": 8
+  },
+  {
+    "card_name": "첵첵체크카드",
+    "card_type": "체크카드",
+    "keyword": "할인",
+    "index": 9
+  },
+  {
+    "card_name": "KB국민 첵첵 체크카드",
+    "card_type": "체크카드",
+    "keyword": "할인",
+    "index": 10
+  },
+  {
+    "card_name": "토심이첵첵체크카드",
+    "card_type": "체크카드",
+    "keyword": "할인",
+    "index": 11
+  },
+  {
+    "card_name": "노리2체크카드_Global",
+    "card_type": "체크카드",
+    "keyword": "할인",
+    "index": 12
+  },
+  {
+    "card_name": "KB국민그린체크카드",
+    "card_type": "체크카드",
+    "keyword": "공공/지원",
+    "index": 13
+  },
+  {
+    "card_name": "기후동핵체크카드",
+    "card_type": "체크카드",
+    "keyword": "공공/지원",
+    "index": 14
+  },
+  {
+    "card_name": "국민행복체크카드",
+    "card_type": "체크카드",
+    "keyword": "공공/지원",
+    "index": 15
+  },
+  {
+    "card_name": "KB 전통시장온누리체크카드",
+    "card_type": "체크카드",
+    "keyword": "공공/지원",
+    "index": 16
+  },
+  {
+    "card_name": "히어로즈체크카드",
+    "card_type": "체크카드",
+    "keyword": "공공/지원",
+    "index": 17
+  },
+  {
+    "card_name": "나라사랑체크카드",
+    "card_type": "체크카드",
+    "keyword": "공공/지원",
+    "index": 18
+  },
+  {
+    "card_name": "KB국민 쏘영 체크카드",
+    "card_type": "체크카드",
+    "keyword": "교육/의료",
+    "index": 19
+  },
+  {
+    "card_name": "훈 체크카드",
+    "card_type": "체크카드",
+    "keyword": "교육/의료",
+    "index": 20
+  },
+  {
+    "card_name": "KB국민 샘 쏘영 체크카드",
+    "card_type": "체크카드",
+    "keyword": "교육/의료",
+    "index": 21
+  },
+  {
+    "card_name": "KB국민 골든대로 체크카드",
+    "card_type": "체크카드",
+    "keyword": "교육/의료",
+    "index": 22
+  },
+  {
+    "card_name": "KB국민 새로이 체크카드",
+    "card_type": "체크카드",
+    "keyword": "음식통신",
+    "index": 23
+  },
+  {
+    "card_name": "해피리워드 체크카드",
+    "card_type": "체크카드",
+    "keyword": "음식통신",
+    "index": 24
+  },
+  {
+    "card_name": "KB국민 음 체크카드",
+    "card_type": "체크카드",
+    "keyword": "음식통신",
+    "index": 25
+  },
+  {
+    "card_name": "해피CU포인트 체크카드",
+    "card_type": "체크카드",
+    "keyword": "음식통신",
+    "index": 26
+  },
+  {
+    "card_name": "LG U+ 체크카드",
+    "card_type": "체크카드",
+    "keyword": "음식통신",
+    "index": 27
+  },
+  {
+    "card_name": "민체크카드",
+    "card_type": "체크카드",
+    "keyword": "음식통신",
+    "index": 28
+  },
+  {
+    "card_name": "총무체크카드",
+    "card_type": "체크카드",
+    "keyword": "음식통신",
+    "index": 29
+  },
+  {
+    "card_name": "토스USS NEXT",
+    "card_type": "체크카드",
+    "keyword": "음식통신",
+    "index": 30
+  },
+  {
+    "card_name": "Liiv M 체크카드",
+    "card_type": "체크카드",
+    "keyword": "음식통신",
+    "index": 31
+  },
+  {
+    "card_name": "스타체크카드",
+    "card_type": "체크카드",
+    "keyword": "쇼핑주유",
+    "index": 32
+  },
+  {
+    "card_name": "H.Point 체크카드",
+    "card_type": "체크카드",
+    "keyword": "쇼핑주유",
+    "index": 33
+  },
+  {
+    "card_name": "KB국민 정 체크카드",
+    "card_type": "체크카드",
+    "keyword": "쇼핑주유",
+    "index": 34
+  },
+  {
+    "card_name": "KB국민 티머니 노리 학생증 체크카드",
+    "card_type": "체크카드",
+    "keyword": "학생증",
+    "index": 35
+  },
+  {
+    "card_name": "K-패스체크카드",
+    "card_type": "체크카드",
+    "keyword": "적립",
+    "index": 36
+  },
+  {
+    "card_name": "카카오페이 KB국민 체크카드",
+    "card_type": "체크카드",
+    "keyword": "적립",
+    "index": 37
+  },
+  {
+    "card_name": "가온올포인트체크카드",
+    "card_type": "체크카드",
+    "keyword": "적립",
+    "index": 38
+  },
+  {
+    "card_name": "KB국민 레고랜드 체크카드",
+    "card_type": "체크카드",
+    "keyword": "문화/레져",
+    "index": 39
+  },
+  {
+    "card_name": "그린재킷 체크카드",
+    "card_type": "체크카드",
+    "keyword": "문화/레져",
+    "index": 40
+  }
+]

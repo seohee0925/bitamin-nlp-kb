@@ -1,0 +1,19 @@
+{
+  "card_name": "보탬e전용카드",
+  "card_type": "신용카드",
+  "keyword": "Biz/공공",
+  "brand": "국내, Master, JCB, UPI(K-WORLD), VISA",
+  "target_user": "본인",
+  "benefits": [
+    "카드 사용 알림 서비스(SMS) 수수료 면제",
+    "카드 신청기관/업체와 적립 포인트 없음",
+    "교통 기능 미탑재"
+  ],
+  "benefit_conditions": [
+    "보조사업별 1개 카드만 매칭 가능",
+    "복수 사업 수행 시 브랜드별 별도 카드 발급 필요"
+  ],
+  "fee": "없음",
+  "overseas_usage": "해외에서 사용 가능",
+  "release_date": "2023.06.30"
+}

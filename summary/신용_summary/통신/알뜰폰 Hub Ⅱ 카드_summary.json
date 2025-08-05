@@ -1,0 +1,17 @@
+{
+  "card_name": "알뜰폰 Hub Ⅱ 카드",
+  "card_type": "신용카드",
+  "keyword": "통신",
+  "brand": "국내, Master, JCB(K-WORLD)",
+  "target_user": "본인 + 가족",
+  "benefits": [
+    "알뜰폰 통신비 자동납부 시 전월 실적 30만 원 이상일 경우 12,000원 할인, 70만 원 이상일 경우 17,000원 할인"
+  ],
+  "benefit_conditions": [
+    "전월 실적 30만 원 이상 시 제공",
+    "최초 카드 사용등록일로부터 다음 달 말일까지 실적 유예기간 제공"
+  ],
+  "fee": "국내전용(Local) 및 해외겸용(K-World(JCB), Master) 연회비는 15,000원이며, 초회/차기년도 연회비 면제 조건 없음",
+  "overseas_usage": "해외에서 사용 가능",
+  "release_date": "2021.03.11"
+}
