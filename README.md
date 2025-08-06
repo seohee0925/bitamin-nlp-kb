@@ -42,3 +42,14 @@ python card_generator.py
 - "연회비가 없는 카드 찾아줘"
 - "쇼핑 할인 혜택이 있는 카드 알려줘"
 - "외식 할인이 많은 카드 추천해줘"
+- "주유 할인 혜택이 있는 카드 찾아줘"
+
+## 📁 주요 파일
+
+- `RAG/card_generator.py`: 메인 실행 파일
+- `RAG/faiss_retriever.py`: 검색 엔진
+- `requirements.txt`: 필요한 패키지 목록
+
+---
+
+**KB 카드 추천 시스템**으로 최적의 카드를 찾아보세요! 💳
