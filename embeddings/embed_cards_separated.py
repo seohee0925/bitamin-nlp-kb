@@ -106,9 +106,12 @@ def process_cards_by_type(cards_data, card_type, client, output_dir):
     # 벡터를 numpy 배열로 변환
     embeddings_array = np.array(card_embeddings).astype('float32')
     
-    # FAISS 인덱스 생성 (L2 거리 기반)
+    # 벡터 정규화 (코사인 유사도 계산을 위해)
+    faiss.normalize_L2(embeddings_array)
+    
+    # FAISS 인덱스 생성 (코사인 유사도 기반 - 내적 사용)
     dimension = embeddings_array.shape[1]  # 벡터 차원
-    index = faiss.IndexFlatL2(dimension)
+    index = faiss.IndexFlatIP(dimension)  # Inner Product (내적) 사용
     
     # 벡터를 FAISS 인덱스에 추가
     index.add(embeddings_array)
