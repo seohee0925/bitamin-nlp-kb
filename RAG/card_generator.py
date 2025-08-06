@@ -309,16 +309,24 @@ class CardGenerator:
                     print("❌ 질문을 입력해주세요.")
                     continue
                 
-                # TODO: Original RAG 처리 로직
+                # Original RAG 기능은 현재 개발 중
                 print(f"\n🔍 '{chat_question}' 검색 중...")
                 print("📋 Original RAG 시스템에서 답변을 생성 중입니다...")
                 
-                # 임시 답변 (실제로는 Original RAG 시스템에서 처리)
+                # 개발 중 메시지 표시
                 print(f"\n💡 {selected_card['card_name']} 관련 답변:")
                 print("="*50)
-                print("이 기능은 현재 개발 중입니다.")
-                print("Original RAG 시스템이 연결되면 이용약관, 상세 혜택, 주의사항 등에 대한")
-                print("정확한 답변을 제공할 수 있습니다.")
+                print("🚧 Original RAG 기능은 현재 개발 중입니다 🚧")
+                print("")
+                print("이 기능에서는 다음과 같은 상세 정보를 제공할 예정입니다:")
+                print("• 이용약관 및 상세 조건")
+                print("• 연회비 면제 조건")
+                print("• 할인 한도 및 제한사항")
+                print("• 해외 사용 시 수수료")
+                print("• 발급 조건 및 서류")
+                print("• 기타 상세 혜택 정보")
+                print("")
+                print("Original RAG 시스템이 완성되면 더 정확하고 상세한 답변을 제공할 수 있습니다.")
                 print("="*50)
                 
             except KeyboardInterrupt:
@@ -469,56 +477,16 @@ def main():
                             # 카드 정보 저장
                             save_success = generator.save_selected_card(selected_card, question, card_type)
                             
-                            # 추가 액션 제안
-                            print("\n💡 추가로 원하시는 정보가 있으신가요?")
-                            print("1. 이 카드의 자세한 혜택 설명")
-                            print("2. 신청 방법 안내")
-                            print("3. 저장된 카드 목록 보기")
-                            print("4. 다음 질문으로")
-                            
-                            sub_choice = input("\n선택하세요 (1/2/3/4): ").strip()
-                            
-                            if sub_choice == '1':
-                                print(f"\n📋 {selected_card['card_name']} 상세 혜택:")
-                                print("="*50)
-                                # 카드 텍스트를 더 읽기 쉽게 포맷팅
-                                details = selected_card['card_text'].replace(';', '\n• ').replace(',', '\n• ')
-                                print(f"• {details}")
-                                print("="*50)
-                            
-                            elif sub_choice == '2':
-                                print(f"\n📞 {selected_card['card_name']} 신청 방법:")
-                                print("="*50)
-                                print("1. KB국민은행 홈페이지 방문")
-                                print("2. KB국민은행 모바일 앱 이용")
-                                print("3. KB국민은행 지점 방문")
-                                print("4. 고객센터 문의: 1588-1688")
-                                print("="*50)
-                            
-                            elif sub_choice == '3':
-                                print(f"\n📋 저장된 카드 목록:")
-                                print("="*50)
-                                saved_cards = generator.get_selected_cards()
-                                if saved_cards:
-                                    for i, saved_card in enumerate(saved_cards, 1):
-                                        timestamp = saved_card['timestamp'][:19]  # 날짜만 표시
-                                        print(f"{i}. {saved_card['card_name']} ({timestamp})")
-                                        print(f"   질문: {saved_card['question']}")
-                                        print(f"   유형: {saved_card['card_type']}")
-                                        print(f"   키워드: {saved_card['keyword']}")
-                                        print()
-                                else:
-                                    print("저장된 카드가 없습니다.")
-                                print("="*50)
-                            
-                            # 이용약관 및 상세 설명 옵션 추가
-                            print(f"\n💡 {selected_card['card_name']}에 대해 더 자세히 알고 싶으신가요?")
+                            # 카드 선택 후 바로 다음 액션 선택
+                            print(f"\n💡 {selected_card['card_name']}을 선택하셨습니다!")
+                            print("다음 중 원하시는 옵션을 선택해주세요:")
                             print("1. 이용약관 및 상세 설명 (Original RAG 채팅)")
-                            print("2. 종료")
+                            print("2. 다른 질문하기")
+                            print("3. 종료")
                             
-                            detail_choice = input("\n선택하세요 (1/2): ").strip()
+                            action_choice = input("\n선택하세요 (1/2/3): ").strip()
                             
-                            if detail_choice == '1':
+                            if action_choice == '1':
                                 print(f"\n🚀 {selected_card['card_name']} Original RAG 채팅으로 이동합니다...")
                                 print("="*60)
                                 print("📋 선택된 카드 정보:")
@@ -527,21 +495,51 @@ def main():
                                 print(f"   원본 질문: {question}")
                                 print("="*60)
                                 
-                                # Original RAG 채팅 시작 (향후 구현 예정)
-                                print("\n🔧 Original RAG 채팅 기능은 현재 개발 중입니다.")
-                                print("이 기능에서는 선택된 카드의 이용약관, 상세 혜택, 주의사항 등에 대해")
-                                print("더 자세한 질문을 할 수 있습니다.")
-                                print("\n예시 질문:")
-                                print("- '이 카드의 이용약관을 알려줘'")
-                                print("- '연회비 면제 조건이 뭐야?'")
-                                print("- '할인 한도는 얼마야?'")
-                                print("- '해외 사용 시 수수료는?'")
+                                # Original RAG는 개발 중 메시지 표시
+                                print("\n" + "="*60)
+                                print("🚧 Original RAG는 개발 중입니다 🚧")
+                                print("="*60)
+                                print("")
+                                print("이 기능에서는 다음과 같은 상세 정보를 제공할 예정입니다:")
+                                print("• 이용약관 및 상세 조건")
+                                print("• 연회비 면제 조건")
+                                print("• 할인 한도 및 제한사항")
+                                print("• 해외 사용 시 수수료")
+                                print("• 발급 조건 및 서류")
+                                print("• 기타 상세 혜택 정보")
+                                print("")
+                                print("Original RAG 시스템이 완성되면 더 정확하고 상세한 답변을 제공할 수 있습니다.")
+                                print("="*60)
                                 
-                                # TODO: Original RAG 채팅 시스템 연결
-                                # generator.start_original_rag_chat(selected_card, question)
+                                # Original RAG 채팅 종료 후 다시 메인 플로우로
+                                print(f"\n💡 {selected_card['card_name']} Original RAG 채팅이 종료되었습니다.")
+                                print("다음 중 원하시는 옵션을 선택해주세요:")
+                                print("1. 다른 질문하기")
+                                print("2. 종료")
                                 
-                            elif detail_choice == '2':
-                                print("✅ 카드 선택을 완료합니다.")
+                                after_rag_choice = input("\n선택하세요 (1/2): ").strip()
+                                
+                                if after_rag_choice == '1':
+                                    print("✅ 다른 질문으로 넘어갑니다.")
+                                    continue
+                                elif after_rag_choice == '2':
+                                    print("👋 시스템을 종료합니다.")
+                                    return
+                                else:
+                                    print("❌ 올바른 옵션을 선택해주세요. 다른 질문으로 넘어갑니다.")
+                                    continue
+                                
+                            elif action_choice == '2':
+                                print("✅ 다른 질문으로 넘어갑니다.")
+                                break
+                            
+                            elif action_choice == '3':
+                                print("👋 시스템을 종료합니다.")
+                                return
+                            
+                            else:
+                                print("❌ 올바른 옵션을 선택해주세요. 다른 질문으로 넘어갑니다.")
+                                break
                             
                             break
                         

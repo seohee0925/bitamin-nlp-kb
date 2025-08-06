@@ -77,13 +77,18 @@ class FAISSCardRetriever:
         return response.data[0].embedding
     
     def find_similar_cards(self, question, card_type="all", top_k=5):
-        """FAISS를 사용하여 질문과 가장 유사한 카드들을 찾기"""
+        """FAISS를 사용하여 질문과 가장 유사한 카드들을 찾기 (코사인 유사도 사용)"""
         
         start_time = time.time()
         
         # 질문을 벡터로 변환
         question_embedding = self.get_question_embedding(question)
         question_vector = np.array(question_embedding).astype('float32').reshape(1, -1)
+        
+        # 질문 벡터 정규화 (코사인 유사도 계산을 위해)
+        question_norm = np.linalg.norm(question_vector)
+        if question_norm > 0:
+            question_vector = question_vector / question_norm
         
         all_results = []
         
@@ -92,8 +97,10 @@ class FAISSCardRetriever:
             # 신용카드 검색
             distances, indices = self.credit_faiss_index.search(question_vector, top_k)
             
-            for i, (distance, idx) in enumerate(zip(distances[0], indices[0])):
-                similarity_score = 1 / (1 + distance)
+            for i, (similarity, idx) in enumerate(zip(distances[0], indices[0])):
+                # FAISS의 IndexFlatIP는 내적을 반환하므로 직접 코사인 유사도
+                # 벡터가 정규화되어 있으므로 내적 = 코사인 유사도
+                cosine_similarity = similarity
                 card_meta = self.credit_metadata[idx]
                 card_text = self.credit_texts[idx]
                 
@@ -102,8 +109,8 @@ class FAISSCardRetriever:
                     'card_name': card_meta['card_name'],
                     'card_type': card_meta['card_type'],
                     'keyword': card_meta['keyword'],
-                    'similarity_score': round(similarity_score, 4),
-                    'distance': round(distance, 4),
+                    'similarity_score': round(cosine_similarity, 4),
+                    'distance': round(1 - cosine_similarity, 4),  # 코사인 거리로 변환
                     'card_text': card_text,
                     'search_type': '신용카드'
                 })
@@ -112,8 +119,10 @@ class FAISSCardRetriever:
             # 체크카드 검색
             distances, indices = self.check_faiss_index.search(question_vector, top_k)
             
-            for i, (distance, idx) in enumerate(zip(distances[0], indices[0])):
-                similarity_score = 1 / (1 + distance)
+            for i, (similarity, idx) in enumerate(zip(distances[0], indices[0])):
+                # FAISS의 IndexFlatIP는 내적을 반환하므로 직접 코사인 유사도
+                # 벡터가 정규화되어 있으므로 내적 = 코사인 유사도
+                cosine_similarity = similarity
                 card_meta = self.check_metadata[idx]
                 card_text = self.check_texts[idx]
                 
@@ -122,13 +131,13 @@ class FAISSCardRetriever:
                     'card_name': card_meta['card_name'],
                     'card_type': card_meta['card_type'],
                     'keyword': card_meta['keyword'],
-                    'similarity_score': round(similarity_score, 4),
-                    'distance': round(distance, 4),
+                    'similarity_score': round(cosine_similarity, 4),
+                    'distance': round(1 - cosine_similarity, 4),  # 코사인 거리로 변환
                     'card_text': card_text,
                     'search_type': '체크카드'
                 })
         
-        # 유사도 점수로 정렬
+        # 유사도 점수로 정렬 (코사인 유사도는 높을수록 유사)
         all_results.sort(key=lambda x: x['similarity_score'], reverse=True)
         
         # 순위 재정렬
