@@ -2,67 +2,67 @@
   {
     "card_name": "굿데이올림카드",
     "card_type": "신용카드",
-    "keyword": "주유 교통",
+    "keyword": "주유/교통",
     "index": 0
   },
   {
     "card_name": "EV 카드",
     "card_type": "신용카드",
-    "keyword": "주유 교통",
+    "keyword": "주유/교통",
     "index": 1
   },
   {
     "card_name": "Easy auto 티타늄카드",
     "card_type": "신용카드",
-    "keyword": "주유 교통",
+    "keyword": "주유/교통",
     "index": 2
   },
   {
     "card_name": "K-패스카드",
     "card_type": "신용카드",
-    "keyword": "주유 교통",
+    "keyword": "주유/교통",
     "index": 3
   },
   {
     "card_name": "E1 LPG KB국민카드",
     "card_type": "신용카드",
-    "keyword": "주유 교통",
+    "keyword": "주유/교통",
     "index": 4
   },
   {
     "card_name": "TMAP KB국민카드",
     "card_type": "신용카드",
-    "keyword": "주유 교통",
+    "keyword": "주유/교통",
     "index": 5
   },
   {
     "card_name": "기후동행카드",
     "card_type": "신용카드",
-    "keyword": "주유 교통",
+    "keyword": "주유/교통",
     "index": 6
   },
   {
     "card_name": "Easy pick카드",
     "card_type": "신용카드",
-    "keyword": "주유 교통",
+    "keyword": "주유/교통",
     "index": 7
   },
   {
     "card_name": "에버온 EV 카드",
     "card_type": "신용카드",
-    "keyword": "주유 교통",
+    "keyword": "주유/교통",
     "index": 8
   },
   {
     "card_name": "American Express Blue Card",
     "card_type": "신용카드",
-    "keyword": "주유 교통",
+    "keyword": "주유/교통",
     "index": 9
   },
   {
     "card_name": "SK에너지 러브유 KB국민카드",
     "card_type": "신용카드",
-    "keyword": "주유 교통",
+    "keyword": "주유/교통",
     "index": 10
   },
   {
@@ -254,355 +254,361 @@
   {
     "card_name": "CU KB국민카드",
     "card_type": "신용카드",
-    "keyword": "음식 카페",
+    "keyword": "음식/카페",
     "index": 42
   },
   {
     "card_name": "다담 카드(비OTP)",
     "card_type": "신용카드",
-    "keyword": "음식 카페",
+    "keyword": "음식/카페",
     "index": 43
   },
   {
     "card_name": "My WE:SH+ 카드",
     "card_type": "신용카드",
-    "keyword": "음식 카페",
+    "keyword": "음식/카페",
     "index": 44
   },
   {
     "card_name": "랭킹닭컴 신용카드",
     "card_type": "신용카드",
-    "keyword": "음식 카페",
+    "keyword": "음식/카페",
     "index": 45
   },
   {
     "card_name": "My WE:SH 카드",
     "card_type": "신용카드",
-    "keyword": "음식 카페",
+    "keyword": "음식/카페",
     "index": 46
   },
   {
     "card_name": "Easy on카드",
     "card_type": "신용카드",
-    "keyword": "음식 카페",
+    "keyword": "음식/카페",
     "index": 47
   },
   {
     "card_name": "톡톡 with카드",
     "card_type": "신용카드",
-    "keyword": "음식 카페",
+    "keyword": "음식/카페",
     "index": 48
   },
   {
     "card_name": "마이핏카드(할인형)",
     "card_type": "신용카드",
-    "keyword": "음식 카페",
+    "keyword": "음식/카페",
     "index": 49
   },
   {
     "card_name": "요기패스 신용카드(가로형)",
     "card_type": "신용카드",
-    "keyword": "음식 카페",
+    "keyword": "음식/카페",
     "index": 50
   },
   {
     "card_name": "청춘대로 톡톡카드",
     "card_type": "신용카드",
-    "keyword": "음식 카페",
+    "keyword": "음식/카페",
     "index": 51
   },
   {
     "card_name": "LFmall 신용카드",
     "card_type": "신용카드",
-    "keyword": "쇼핑 간편결제",
+    "keyword": "쇼핑/간편결제",
     "index": 52
   },
   {
     "card_name": "H.Point KB국민카드",
     "card_type": "신용카드",
-    "keyword": "쇼핑 간편결제",
+    "keyword": "쇼핑/간편결제",
     "index": 53
   },
   {
     "card_name": "삼성페이 KB국민카드",
     "card_type": "신용카드",
-    "keyword": "쇼핑 간편결제",
+    "keyword": "쇼핑/간편결제",
     "index": 54
   },
   {
     "card_name": "쿠팡 와우 카드",
     "card_type": "신용카드",
-    "keyword": "쇼핑 간편결제",
+    "keyword": "쇼핑/간편결제",
     "index": 55
   },
   {
     "card_name": "KB국민 톡톡 Pay카드",
     "card_type": "신용카드",
-    "keyword": "쇼핑 간편결제",
+    "keyword": "쇼핑/간편결제",
     "index": 56
   },
   {
     "card_name": "갤러리아 KB국민카드",
     "card_type": "신용카드",
-    "keyword": "쇼핑 간편결제",
+    "keyword": "쇼핑/간편결제",
     "index": 57
   },
   {
     "card_name": "GS SHOP KB국민카드",
     "card_type": "신용카드",
-    "keyword": "쇼핑 간편결제",
+    "keyword": "쇼핑/간편결제",
     "index": 58
   },
   {
     "card_name": "American Express Rose Gold KB Kookmin Card",
     "card_type": "신용카드",
-    "keyword": "쇼핑 간편결제",
+    "keyword": "쇼핑/간편결제",
     "index": 59
   },
   {
     "card_name": "이마트II KB국민카드",
     "card_type": "신용카드",
-    "keyword": "쇼핑 간편결제",
+    "keyword": "쇼핑/간편결제",
     "index": 60
   },
   {
     "card_name": "KB국민 Easy shopping카드",
     "card_type": "신용카드",
-    "keyword": "쇼핑 간편결제",
+    "keyword": "쇼핑/간편결제",
     "index": 61
   },
   {
     "card_name": "AK KB 국민카드",
     "card_type": "신용카드",
-    "keyword": "쇼핑 간편결제",
+    "keyword": "쇼핑/간편결제",
     "index": 62
   },
   {
     "card_name": "The CJ KB국민카드",
     "card_type": "신용카드",
-    "keyword": "쇼핑 간편결제",
+    "keyword": "쇼핑/간편결제",
     "index": 63
   },
   {
     "card_name": "롯데마트 KB국민카드",
     "card_type": "신용카드",
-    "keyword": "쇼핑 간편결제",
+    "keyword": "쇼핑/간편결제",
     "index": 64
+  },
+  {
+    "card_name": "11Pay KB국민카드",
+    "card_type": "신용카드",
+    "keyword": "쇼핑/간편결제",
+    "index": 65
   },
   {
     "card_name": "스카이패스 티타늄 카드",
     "card_type": "신용카드",
     "keyword": "항공/해외",
-    "index": 65
+    "index": 66
   },
   {
     "card_name": "WE:SH Travel 카드",
     "card_type": "신용카드",
     "keyword": "항공/해외",
-    "index": 66
+    "index": 67
   },
   {
     "card_name": "제주항공 J 포인트 KB국민카드",
     "card_type": "신용카드",
     "keyword": "항공/해외",
-    "index": 67
+    "index": 68
   },
   {
     "card_name": "kt M mobileⅡ카드",
     "card_type": "신용카드",
     "keyword": "통신",
-    "index": 68
+    "index": 69
   },
   {
     "card_name": "딜라이브 카드",
     "card_type": "신용카드",
     "keyword": "통신",
-    "index": 69
+    "index": 70
   },
   {
     "card_name": "LG 헬로비전Ⅱ카드",
     "card_type": "신용카드",
     "keyword": "통신",
-    "index": 70
+    "index": 71
   },
   {
     "card_name": "T-economy KB국민카드",
     "card_type": "신용카드",
     "keyword": "통신",
-    "index": 71
+    "index": 72
   },
   {
     "card_name": "토스모바일 KB국민카드",
     "card_type": "신용카드",
     "keyword": "통신",
-    "index": 72
+    "index": 73
   },
   {
     "card_name": "Easy ring 티타늄카드",
     "card_type": "신용카드",
     "keyword": "통신",
-    "index": 73
+    "index": 74
   },
   {
     "card_name": "Liiv M Ⅱ 카드",
     "card_type": "신용카드",
     "keyword": "통신",
-    "index": 74
+    "index": 75
   },
   {
     "card_name": "알뜰폰 Hub Ⅱ 카드",
     "card_type": "신용카드",
     "keyword": "통신",
-    "index": 75
+    "index": 76
   },
   {
     "card_name": "U＋유모바일Ⅱ카드",
     "card_type": "신용카드",
     "keyword": "통신",
-    "index": 76
+    "index": 77
   },
   {
     "card_name": "LGU+ 라이트할부 Ⅱ KB국민카드",
     "card_type": "신용카드",
     "keyword": "통신",
-    "index": 77
+    "index": 78
   },
   {
     "card_name": "스마트 지킴이카드",
     "card_type": "신용카드",
     "keyword": "통신",
-    "index": 78
+    "index": 79
   },
   {
     "card_name": "KT 할부 Plus KB국민카드",
     "card_type": "신용카드",
     "keyword": "통신",
-    "index": 79
+    "index": 80
   },
   {
     "card_name": "T 라이트 KB국민카드",
     "card_type": "신용카드",
     "keyword": "통신",
-    "index": 80
+    "index": 81
   },
   {
     "card_name": "SK 7mobile Ⅱ 카드",
     "card_type": "신용카드",
     "keyword": "통신",
-    "index": 81
+    "index": 82
   },
   {
     "card_name": "KMVNO 알뜰폰 카드",
     "card_type": "신용카드",
     "keyword": "통신",
-    "index": 82
+    "index": 83
   },
   {
     "card_name": "KB Pay 챌린지+카드",
     "card_type": "신용카드",
     "keyword": "전가맹점",
-    "index": 83
+    "index": 84
   },
   {
     "card_name": "WE:SH All+ 카드",
     "card_type": "신용카드",
     "keyword": "전가맹점",
-    "index": 84
+    "index": 85
   },
   {
     "card_name": "The Easy카드",
     "card_type": "신용카드",
     "keyword": "전가맹점",
-    "index": 85
+    "index": 86
   },
   {
     "card_name": "WE:SH Daily 카드",
     "card_type": "신용카드",
     "keyword": "전가맹점",
-    "index": 86
+    "index": 87
   },
   {
     "card_name": "마이핏카드(적립형)",
     "card_type": "신용카드",
     "keyword": "전가맹점",
-    "index": 87
+    "index": 88
   },
   {
     "card_name": "Biz Prime 카드",
     "card_type": "신용카드",
     "keyword": "전가맹점",
-    "index": 88
+    "index": 89
   },
   {
     "card_name": "WE:SH All 카드",
     "card_type": "신용카드",
     "keyword": "전가맹점",
-    "index": 89
+    "index": 90
   },
   {
     "card_name": "KB Pay 챌린지카드",
     "card_type": "신용카드",
     "keyword": "전가맹점",
-    "index": 90
+    "index": 91
   },
   {
     "card_name": "가온올림카드(실속형)",
     "card_type": "신용카드",
     "keyword": "전가맹점",
-    "index": 91
+    "index": 92
   },
   {
     "card_name": "웅진씽크빅 카드",
     "card_type": "신용카드",
     "keyword": "교육/건강",
-    "index": 92
+    "index": 93
   },
   {
     "card_name": "Our WE:SH 카드",
     "card_type": "신용카드",
     "keyword": "교육/건강",
-    "index": 93
+    "index": 94
   },
   {
     "card_name": "보람상조 KB카드",
     "card_type": "신용카드",
     "keyword": "교육/건강",
-    "index": 94
+    "index": 95
   },
   {
     "card_name": "반려愛카드(강아지)",
     "card_type": "신용카드",
     "keyword": "교육/건강",
-    "index": 95
+    "index": 96
   },
   {
     "card_name": "비상온리원 카드",
     "card_type": "신용카드",
     "keyword": "교육/건강",
-    "index": 96
+    "index": 97
   },
   {
     "card_name": "KB국민 펫코노미 카드",
     "card_type": "신용카드",
     "keyword": "교육/건강",
-    "index": 97
+    "index": 98
   },
   {
     "card_name": "골든라이프 올림카드",
     "card_type": "신용카드",
     "keyword": "교육/건강",
-    "index": 98
+    "index": 99
   },
   {
     "card_name": "밀크T 카드",
     "card_type": "신용카드",
     "keyword": "교육/건강",
-    "index": 99
+    "index": 100
   },
   {
     "card_name": "KB손해보험 마이펫카드",
     "card_type": "신용카드",
     "keyword": "교육/건강",
-    "index": 100
+    "index": 101
   }
 ]

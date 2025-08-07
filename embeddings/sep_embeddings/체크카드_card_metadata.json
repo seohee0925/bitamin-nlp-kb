@@ -140,55 +140,55 @@
   {
     "card_name": "KB국민 새로이 체크카드",
     "card_type": "체크카드",
-    "keyword": "음식통신",
+    "keyword": "음식/통신",
     "index": 23
   },
   {
     "card_name": "해피리워드 체크카드",
     "card_type": "체크카드",
-    "keyword": "음식통신",
+    "keyword": "음식/통신",
     "index": 24
   },
   {
     "card_name": "KB국민 음 체크카드",
     "card_type": "체크카드",
-    "keyword": "음식통신",
+    "keyword": "음식/통신",
     "index": 25
   },
   {
     "card_name": "해피CU포인트 체크카드",
     "card_type": "체크카드",
-    "keyword": "음식통신",
+    "keyword": "음식/통신",
     "index": 26
   },
   {
     "card_name": "LG U+ 체크카드",
     "card_type": "체크카드",
-    "keyword": "음식통신",
+    "keyword": "음식/통신",
     "index": 27
   },
   {
     "card_name": "민체크카드",
     "card_type": "체크카드",
-    "keyword": "음식통신",
+    "keyword": "음식/통신",
     "index": 28
   },
   {
     "card_name": "총무체크카드",
     "card_type": "체크카드",
-    "keyword": "음식통신",
+    "keyword": "음식/통신",
     "index": 29
   },
   {
     "card_name": "토스USS NEXT",
     "card_type": "체크카드",
-    "keyword": "음식통신",
+    "keyword": "음식/통신",
     "index": 30
   },
   {
     "card_name": "Liiv M 체크카드",
     "card_type": "체크카드",
-    "keyword": "음식통신",
+    "keyword": "음식/통신",
     "index": 31
   },
   {
@@ -216,33 +216,39 @@
     "index": 35
   },
   {
-    "card_name": "K-패스체크카드",
+    "card_name": "가온∙누리 체크카드",
     "card_type": "체크카드",
     "keyword": "적립",
     "index": 36
   },
   {
-    "card_name": "카카오페이 KB국민 체크카드",
+    "card_name": "K-패스체크카드",
     "card_type": "체크카드",
     "keyword": "적립",
     "index": 37
   },
   {
-    "card_name": "가온올포인트체크카드",
+    "card_name": "카카오페이 KB국민 체크카드",
     "card_type": "체크카드",
     "keyword": "적립",
     "index": 38
   },
   {
+    "card_name": "가온올포인트체크카드",
+    "card_type": "체크카드",
+    "keyword": "적립",
+    "index": 39
+  },
+  {
     "card_name": "KB국민 레고랜드 체크카드",
     "card_type": "체크카드",
     "keyword": "문화/레져",
-    "index": 39
+    "index": 40
   },
   {
     "card_name": "그린재킷 체크카드",
     "card_type": "체크카드",
     "keyword": "문화/레져",
-    "index": 40
+    "index": 41
   }
 ]

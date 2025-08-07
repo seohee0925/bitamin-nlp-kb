@@ -22,8 +22,7 @@
     ],
     "fee": "K-WORLD(UPI 타입) 모바일 단독 9,000원, 일반 15,000원. 국내외겸용 모바일 단독 14,000원, 일반 20,000원. 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2015.02.13",
-    "intro": "매일 매일 기분 좋은 할인 혜택으로 더 풍요로운 생활!"
+    "release_date": "2015.02.13"
   },
   {
     "card_name": "EV 카드",
@@ -41,8 +40,7 @@
     ],
     "fee": "JCB 12,000원, 국내 10,000원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2023.01.01",
-    "intro": "전기차 이용자라면 꼭 필요한!"
+    "release_date": "2023.01.01"
   },
   {
     "card_name": "Easy auto 티타늄카드",
@@ -68,8 +66,7 @@
     ],
     "fee": "K-WORLD(JCB타입), 국내외겸용(Master) 모두 연회비 30,000원",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2019.07.30",
-    "intro": "주유·정비·생활·보험! Easy하게 적립을 타고 달리는 기분!"
+    "release_date": "2019.07.30"
   },
   {
     "card_name": "K-패스카드",
@@ -87,8 +84,7 @@
     ],
     "fee": "VISA 12,000원, 국내 10,000원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.06.01",
-    "intro": "교통비 SAVE!! 생활서비스 할인 혜택까지~"
+    "release_date": "2021.06.01"
   },
   {
     "card_name": "E1 LPG KB국민카드",
@@ -109,8 +105,7 @@
     ],
     "fee": "K-WORLD(JCB타입) 15,000원, 국내외겸용(Master) 20,000원이며 연회비 면제조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2016.08.31",
-    "intro": "E1 충전소 할인은 기본! 풍성한 혜택으로 생활에너지 충전!"
+    "release_date": "2016.08.31"
   },
   {
     "card_name": "TMAP KB국민카드",
@@ -128,8 +123,7 @@
     ],
     "fee": "VISA 12,000원, 국내 10,000원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.05.01",
-    "intro": "이용은 간편하게, 할인은 넉넉하게!"
+    "release_date": "2021.05.01"
   },
   {
     "card_name": "기후동행카드",
@@ -150,8 +144,7 @@
     ],
     "fee": "Local 10,000원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 불가",
-    "release_date": "2024.11.25",
-    "intro": "무제한으로 실천하는 기후동행"
+    "release_date": "2024.11.25"
   },
   {
     "card_name": "Easy pick카드",
@@ -170,8 +163,7 @@
     ],
     "fee": "일반카드 K-WORLD(JCB)와 국내외겸용(Master) 연회비 2만 원, 모바일 단독카드 연회비 1만 4천 원",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2019.06.27",
-    "intro": "주요 생활 영역부터 내가 Pick한 영역까지 모두 적립 Easy!"
+    "release_date": "2019.06.27"
   },
   {
     "card_name": "에버온 EV 카드",
@@ -196,8 +188,7 @@
     ],
     "fee": "일반(실물)카드 20,000원 (기본연회비 7,000원 + 제휴연회비 13,000원), 모바일 단독카드 14,000원 (기본연회비 1,000원 + 제휴연회비 13,000원)이며 초회 및 차기년도 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "",
-    "intro": "전기차 이용자라면 꼭 필요한!"
+    "release_date": ""
   },
   {
     "card_name": "American Express Blue Card",
@@ -222,8 +213,7 @@
     ],
     "fee": "일반카드 연회비 19,000원, 모바일 단독카드 연회비 13,000원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2023.11.29",
-    "intro": "매일 쓰는 영역 할인으로 내 생활에 착붙!"
+    "release_date": "2023.11.29"
   },
   {
     "card_name": "SK에너지 러브유 KB국민카드",
@@ -244,8 +234,7 @@
     ],
     "fee": "국내전용 7,000원, 국내외겸용 12,000원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2012.04.12",
-    "intro": "평소에는 주유비 할인 받고! 주말에는 캠핑 즐기고!"
+    "release_date": "2012.04.12"
   },
   {
     "card_name": "국방멤버쉽카드",
@@ -265,8 +254,7 @@
     ],
     "fee": "실버 등급: 국내전용 3,000원, 국내외 겸용 5,000원; 골드 등급: 국내전용 5,000원, 국내외 겸용 10,000원; 플래티넘: 국내외 겸용 기본 10,000원, 제휴 90,000원. 연간 10만원 이상 사용 시 면제, 플래티늄 제휴연회비 제외",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2009.08.17",
-    "intro": "직업 군인과 군무원 분들에게 꼭 필요한 세심한 혜택! KB국민 국방멤버쉽카드"
+    "release_date": "2009.08.17"
   },
   {
     "card_name": "SK내트럭 유가보조금카드",
@@ -290,8 +278,7 @@
     ],
     "fee": "국내전용(K-WORLD/UPI), 국내외겸용(VISA) 신용카드 모두 연회비 면제",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2015.11.02",
-    "intro": "화물운전자를 위한 유가보조금 및 SK주유할인 지원카드"
+    "release_date": "2015.11.02"
   },
   {
     "card_name": "스타트럭 플러스 HD현대오일뱅크카드",
@@ -313,8 +300,7 @@
     ],
     "fee": "국내전용(K-WORLD(JCB))와 국내외겸용(MASTER) 카드에 대해 연회비는 없습니다.",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2017.07.03",
-    "intro": "화물운전자를 위한 유가보조금 및 HD현대오일뱅크 주유할인 지원카드"
+    "release_date": "2017.07.03"
   },
   {
     "card_name": "KB국민 군인연금증 신용카드(비사진)",
@@ -341,8 +327,7 @@
     ],
     "fee": "K-World(JCB) 9,000원, Master 10,000원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2019.03.27",
-    "intro": "대한민국 군과 함께 풍요로운 노후"
+    "release_date": "2019.03.27"
   },
   {
     "card_name": "국민행복카드",
@@ -362,8 +347,7 @@
     ],
     "fee": "국내전용(Local)은 연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.02.01",
-    "intro": "보육료 및 임신·출산 진료비 지원 등 국가바우처 지원 가능"
+    "release_date": "2021.02.01"
   },
   {
     "card_name": "스타트럭플러스 S-OIL카드",
@@ -386,8 +370,7 @@
     ],
     "fee": "국내전용(K-WORLD(UPI))와 국내외겸용(MASTER) 카드에 대해 연회비는 없습니다.",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2016.09.23",
-    "intro": "화물운전자를 위한 유가보조금 및 S-OIL 주유할인 지원카드"
+    "release_date": "2016.09.23"
   },
   {
     "card_name": "가온 Biz카드",
@@ -407,8 +390,7 @@
     ],
     "fee": "K-WORLD(UPI) 15,000원, VISA 20,000원이며 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2016.07.08",
-    "intro": "국내가맹점 기본적립, 사업지원영역 및 고액결제 추가적립!"
+    "release_date": "2016.07.08"
   },
   {
     "card_name": "전통시장온누리카드",
@@ -433,8 +415,7 @@
     ],
     "fee": "국내전용 20,000원, Master 20,000원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2025.06.30",
-    "intro": "전통시장과 온누리상품권의 특별한 혜택!!"
+    "release_date": "2025.06.30"
   },
   {
     "card_name": "탄탄대로 Biz카드",
@@ -456,8 +437,7 @@
     ],
     "fee": "일반카드 연회비 15,000원, 모바일 단독카드 연회비 9,000원",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2017.04.25",
-    "intro": "일상에서 사업까지 탄탄한 혜택!"
+    "release_date": "2017.04.25"
   },
   {
     "card_name": "TBX 카드",
@@ -475,8 +455,7 @@
     ],
     "fee": "일반카드 국내전용 및 Master 연회비 20,000원, 모바일 단독카드 14,000원, 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2025.03.20",
-    "intro": "한국타이어 TBX 멤버십 회원을 위한"
+    "release_date": "2025.03.20"
   },
   {
     "card_name": "사장님카드",
@@ -497,8 +476,7 @@
     ],
     "fee": "국내전용(Local) 및 국내외겸용(Mastercard) 모두 연회비는 20,000원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2024.06.10",
-    "intro": "K-사장님의 든든한 사업 파트너"
+    "release_date": "2024.06.10"
   },
   {
     "card_name": "스타트럭Ⅱ GS칼텍스카드",
@@ -515,8 +493,7 @@
     ],
     "fee": "국내전용(K-WORLD(JCB))와 국내외겸용(MASTER) 카드에 대해 연회비는 없습니다.",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2018.06.11",
-    "intro": "주유만해도 리터당 최대 80원 할인!"
+    "release_date": "2018.06.11"
   },
   {
     "card_name": "STARTLUCK 카드",
@@ -539,8 +516,7 @@
     ],
     "fee": "국내용 3,000원, 국내외겸용(VISA, Master) 5,000원이며 초회년도 연회비 면제",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2009.11.12",
-    "intro": "운송사업자들을 위한 든든한 지원 혜택의 힘"
+    "release_date": "2009.11.12"
   },
   {
     "card_name": "보탬e전용카드",
@@ -559,8 +535,7 @@
     ],
     "fee": "없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2023.06.30",
-    "intro": "지방보조금 결제에 보탬이 되는"
+    "release_date": "2023.06.30"
   },
   {
     "card_name": "캐시노트 KB국민카드",
@@ -580,8 +555,7 @@
     ],
     "fee": "국내전용(Local) 20,000원, 해외겸용(Master) 20,000원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2024.06.25",
-    "intro": "캐시노트 월정액과 사업지원 할인을 동시에"
+    "release_date": "2024.06.25"
   },
   {
     "card_name": "딜라이브 카드",
@@ -599,8 +573,7 @@
     ],
     "fee": "국내전용(Local) 및 국내외겸용(JCB/Master)의 연회비는 15,000원이며, 연회비 면제조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.07.15",
-    "intro": "딜라이브 자동납부 요금 매월 할인 받는 방법!"
+    "release_date": "2022.07.15"
   },
   {
     "card_name": "쿠쿠렌탈Ⅱ 카드",
@@ -621,8 +594,7 @@
     ],
     "fee": "국내전용(Local)과 국내외겸용(K-WORLD(JCB타입), Master) 모두 15,000원이며 초회/차기년도 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.03.10",
-    "intro": "렌탈 요금 매월 할인 받는 방법!"
+    "release_date": "2021.03.10"
   },
   {
     "card_name": "청호나이스Ⅱ 카드",
@@ -660,8 +632,7 @@
     ],
     "fee": "K-World(JCB타입)과 국내외겸용(Master) 모두 연회비 15,000원, 연회비 면제조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2018.03.02",
-    "intro": "품격있는 상조서비스를 KB로 만납니다."
+    "release_date": "2018.03.02"
   },
   {
     "card_name": "T-economy KB국민카드",
@@ -681,8 +652,7 @@
     ],
     "fee": "국내전용(Local) 및 국내외겸용(JCB/Master)의 연회비는 15,000원이며, 연회비 면제조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.05.31",
-    "intro": "SKT 통신요금을 알뜰하게 절약하는 방법!"
+    "release_date": "2022.05.31"
   },
   {
     "card_name": "토스모바일 KB국민카드",
@@ -701,8 +671,7 @@
     ],
     "fee": "국내전용(Local) 및 국내외겸용(Master) 카드의 연회비는 20,000원이며, 초회/차기년도 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2023.07.21",
-    "intro": "통신요금 매월 할인 받는 방법!"
+    "release_date": "2023.07.21"
   },
   {
     "card_name": "Liiv M Ⅱ 카드",
@@ -721,8 +690,7 @@
     ],
     "fee": "국내전용(Local) 및 해외겸용(K-World(JCB), Master) 연회비 15,000원, 초회/차기년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.03.24",
-    "intro": "매월 Liiv M 통신비를 절약하는 방법!"
+    "release_date": "2021.03.24"
   },
   {
     "card_name": "알뜰폰 Hub Ⅱ 카드",
@@ -739,8 +707,7 @@
     ],
     "fee": "국내전용(Local) 및 해외겸용(K-World(JCB), Master) 연회비 15,000원, 초회/차기년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.03.11",
-    "intro": "알뜰폰 통신비를 더 알뜰하게 절약하는 방법!"
+    "release_date": "2021.03.11"
   },
   {
     "card_name": "교원 웰스 KB국민카드",
@@ -762,8 +729,7 @@
     ],
     "fee": "K-WORLD(JCB타입) 및 국내외겸용(Master) 모두 총 12,000원, 초회/차기년도 연회비 면제조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2017.07.03",
-    "intro": "웰스로 건강한 습관 ! KB국민카드로 알뜰한 습관 !"
+    "release_date": "2017.07.03"
   },
   {
     "card_name": "KB라이프 딱좋은 요즘 건강 KB카드",
@@ -781,8 +747,7 @@
     ],
     "fee": "일반카드 연회비 20,000원, 모바일 단독카드 14,000원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2025.06.24",
-    "intro": "당신이 만드는 건강한 인생"
+    "release_date": "2025.06.24"
   },
   {
     "card_name": "SK매직 올림카드",
@@ -803,8 +768,7 @@
     ],
     "fee": "K-WORLD(JCB타입) 12,000원, Master 15,000원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2016.12.21",
-    "intro": "렌탈 요금, 스마트하게 할인 받고 영화·놀이공원 할인까지!"
+    "release_date": "2016.12.21"
   },
   {
     "card_name": "LG전자 KB국민카드",
@@ -824,8 +788,7 @@
     ],
     "fee": "K-WORLD(JCB) 및 국내외 겸용(Master) 연회비 15,000원, 초회/차기년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2018.07.20",
-    "intro": "LG전자 베스트샵 가전제품 / 구독(렌탈)요금 할인!"
+    "release_date": "2018.07.20"
   },
   {
     "card_name": "코웨이Ⅱ 카드",
@@ -847,8 +810,7 @@
     ],
     "fee": "K-WORLD(JCB타입)과 국내외겸용(Master) 모두 연회비는 3만 원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2018.06.29",
-    "intro": "코웨이 더블 혜택! 렌탈료 할인과 적립을 동시에!"
+    "release_date": "2018.06.29"
   },
   {
     "card_name": "세라젬 KB국민카드",
@@ -869,8 +831,7 @@
     ],
     "fee": "국내전용(Local) 및 국내외겸용(K-WORLD(JCB타입), Master) 카드 모두 15,000원, 초회/차기년도 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.03.24",
-    "intro": "렌탈 요금 매월 할인 받는 방법!"
+    "release_date": "2021.03.24"
   },
   {
     "card_name": "KMVNO 알뜰폰 카드",
@@ -887,8 +848,7 @@
     ],
     "fee": "국내전용(Local) 및 해외겸용(K-World(JCB), Master) 연회비는 15,000원이며 초회/차기년도 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.07.29",
-    "intro": "매월 알뜰폰 통신비를 절약하는 방법!"
+    "release_date": "2022.07.29"
   },
   {
     "card_name": "Wavve 카드",
@@ -910,8 +870,7 @@
     ],
     "fee": "국내전용(Local) 및 국내외겸용(VISA, K-World(UPI)) 모두 15,000원, 초회/차기년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.04.27",
-    "intro": "Wavve 이용권 결제 할 땐 !"
+    "release_date": "2022.04.27"
   },
   {
     "card_name": "CU KB국민카드",
@@ -935,8 +894,7 @@
     ],
     "fee": "일반(실물)카드 20,000원 (기본연회비 7,000원 + 제휴연회비 13,000원), 모바일 단독카드 14,000원 (기본연회비 1,000원 + 제휴연회비 13,000원)이며 초회 및 차기년도 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "",
-    "intro": "CU 할인! 한번에 빠르고 쉽게~"
+    "release_date": ""
   },
   {
     "card_name": "다담 카드(비OTP)",
@@ -970,8 +928,7 @@
     ],
     "fee": "모바일 단독카드 K-WORLD(UPI타입) 9,000원, 국내외겸용 14,000원. 실물카드 K-WORLD(UPI타입) 15,000원, 국내외겸용(VISA 또는 Master) 20,000원. 연회비 면제조건 없음.",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2015.11.05",
-    "intro": "KB국민 훈민정음 두번째 이야기, 모두의 이야기를 담은 카드"
+    "release_date": "2015.11.05"
   },
   {
     "card_name": "My WE:SH+ 카드",
@@ -994,8 +951,7 @@
     ],
     "fee": "일반카드 연회비 50,000원, 모바일 단독카드 연회비 44,000원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2025.04.22",
-    "intro": "'나'를 위한 더 많은 혜택"
+    "release_date": "2025.04.22"
   },
   {
     "card_name": "랭킹닭컴 신용카드",
@@ -1018,8 +974,7 @@
     ],
     "fee": "국내전용 및 VISA 카드 연회비 각각 15,000원, 기본연회비 7,000원과 제휴연회비 8,000원으로 구성",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.04.29",
-    "intro": "랭킹은 알고 있다!!"
+    "release_date": "2022.04.29"
   },
   {
     "card_name": "My WE:SH 카드",
@@ -1044,8 +999,7 @@
     ],
     "fee": "일반카드 연회비 15,000원, 모바일단독카드 연회비 9,000원, 초회/차기년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.12.26",
-    "intro": "'나'의 행복을 위한 필수 혜택 카드"
+    "release_date": "2022.12.26"
   },
   {
     "card_name": "Easy on카드",
@@ -1068,8 +1022,7 @@
     ],
     "fee": "모바일 단독카드 14,000원 (K-WORLD(UPI) 기본연회비 1,000원 + 제휴연회비 13,000원), 일반카드 20,000원 (K-WORLD(UPI)/국내외겸용(Master) 기본연회비 7,000원 + 제휴연회비 13,000원), 초회 및 차기년도 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "",
-    "intro": "Food on, Music on, Shopping on 모두 할인 Easy on!"
+    "release_date": ""
   },
   {
     "card_name": "톡톡 with카드",
@@ -1115,8 +1068,7 @@
     ],
     "fee": "Local 10,000원, Master 10,000원이며 초회/차기년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.06.01",
-    "intro": "#외식 #편의점 #마트 #주유 #통신 #쇼핑 #배달"
+    "release_date": "2021.06.01"
   },
   {
     "card_name": "요기패스 신용카드(가로형)",
@@ -1136,8 +1088,7 @@
     ],
     "fee": "국내전용과 국내외겸용 모두 연회비 15,000원, 초회/차기년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.08.12",
-    "intro": "구독료 부담은 No! 요기패스 혜택은 Yes!"
+    "release_date": "2021.08.12"
   },
   {
     "card_name": "청춘대로 톡톡카드",
@@ -1157,8 +1108,7 @@
     ],
     "fee": "K-WORLD(JCB) 일반카드 1만 원, 모바일 단독카드 4천 원, Master 일반카드 1만 2천 원, 모바일 단독카드 6천 원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2017.01.26",
-    "intro": "Simple하게 즐기자! 혜택 톡톡!"
+    "release_date": "2017.01.26"
   },
   {
     "card_name": "LFmall 신용카드",
@@ -1179,8 +1129,7 @@
     ],
     "fee": "국내전용(Local) 및 국내외겸용(Master) 15,000원 (기본연회비 7,000원 + 제휴연회비 8,000원)이며 초회 및 차기년도 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "",
-    "intro": "스마트한 쇼핑 혜택"
+    "release_date": ""
   },
   {
     "card_name": "H.Point KB국민카드",
@@ -1201,8 +1150,7 @@
     ],
     "fee": "K-WORLD(JCB) 및 Master 브랜드 모두 12,000원, 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2017.08.10",
-    "intro": "현대백화점그룹 멤버십 혜택에 KB국민카드 혜택을 더하다!"
+    "release_date": "2017.08.10"
   },
   {
     "card_name": "삼성페이 KB국민카드",
@@ -1220,8 +1168,7 @@
     ],
     "fee": "K-WORLD(JCB 타입)과 국내외겸용(Master) 모두 15,000원, 연회비 면제조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2018.07.20",
-    "intro": "삼성 페이로 간편하게 할인받는 방법!"
+    "release_date": "2018.07.20"
   },
   {
     "card_name": "쿠팡 와우 카드",
@@ -1258,8 +1205,7 @@
     ],
     "fee": "K-WORLD(JCB) 20,000원, Master 20,000원, 모바일 단독카드 14,000원, 연회비 면제조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2017.12.22",
-    "intro": "똑똑하게 할인 “톡톡”!"
+    "release_date": "2017.12.22"
   },
   {
     "card_name": "갤러리아 KB국민카드",
@@ -1281,8 +1227,7 @@
     ],
     "fee": "국내전용(Local) 및 국내외겸용(Visa) 15,000원 (기본연회비 7,000원 + 제휴연회비 8,000원)이며 초회 및 차기년도 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "정보 없음",
-    "intro": "갤러리아 혜택을 한 장에 담아"
+    "release_date": "정보 없음"
   },
   {
     "card_name": "GS SHOP KB국민카드",
@@ -1304,8 +1249,7 @@
     ],
     "fee": "Local 25,000원, VISA/UPI 25,000원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2020.12.16",
-    "intro": "GS SHOP 12%, 월 최대 5만원 할인!"
+    "release_date": "2020.12.16"
   },
   {
     "card_name": "American Express Rose Gold KB Kookmin Card",
@@ -1328,8 +1272,7 @@
     ],
     "fee": "국내외겸용(아멕스) 일반카드 연회비 19,000원, 모바일 단독카드 연회비 13,000원이며 초회/차기년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2023.11.29",
-    "intro": "KB Pay와 만나는 장밋빛 할인 혜택"
+    "release_date": "2023.11.29"
   },
   {
     "card_name": "이마트II KB국민카드",
@@ -1352,8 +1295,7 @@
     ],
     "fee": "국내전용 및 VISA 15,000원, 초회/차기년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.08.12",
-    "intro": "다시 새롭게! 이마트!!"
+    "release_date": "2022.08.12"
   },
   {
     "card_name": "KB국민 Easy shopping카드",
@@ -1372,8 +1314,7 @@
     ],
     "fee": "Local 15,000원, 모바일 단독카드 9,000원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.06.24",
-    "intro": "쇼핑서비스에서 아파트관리비까지~"
+    "release_date": "2021.06.24"
   },
   {
     "card_name": "AK KB 국민카드",
@@ -1400,8 +1341,7 @@
     ],
     "fee": "JCB 또는 Master카드 기준 연 12,000원, 연회비 면제조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2017.10.24",
-    "intro": "쇼핑에 강한 AK와 생활에 강한 KB의 특별한 만남!"
+    "release_date": "2017.10.24"
   },
   {
     "card_name": "The CJ KB국민카드",
@@ -1423,8 +1363,7 @@
     ],
     "fee": "국내전용 실버 3천원, 골드 5천원, 국내외겸용 실버 5천원, 골드 1만원, 제휴연회비 7천원, 연회비 면제조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2005.05.10",
-    "intro": "계열사가 많은 알찬 CJ"
+    "release_date": "2005.05.10"
   },
   {
     "card_name": "롯데마트 KB국민카드",
@@ -1448,8 +1387,7 @@
     ],
     "fee": "K-WORLD(JCB) 10,000원, AMEX 15,000원, 차기년도 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2015.09.16",
-    "intro": "행복드림 롯데마트에서 할인 혜택"
+    "release_date": "2015.09.16"
   },
   {
     "card_name": "11Pay KB국민카드",
@@ -1489,8 +1427,7 @@
     ],
     "fee": "국내전용 및 국내외겸용(마스터카드) 기본연회비 7,000원, 제휴연회비 38,000원, 총합 45,000원이며 초회/차기년도 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.02.11",
-    "intro": "대한항공 마일리지 기본적립에 해외/면세점 추가적립 혜택까지!"
+    "release_date": "2022.02.11"
   },
   {
     "card_name": "WE:SH Travel 카드",
@@ -1512,8 +1449,7 @@
     ],
     "fee": "일반카드 연회비 25,000원, 모바일 단독카드 연회비 19,000원, 초회/차기년도 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2024.04.08",
-    "intro": "외화 충전·환전 없이 우대 환율로 결제되는"
+    "release_date": "2024.04.08"
   },
   {
     "card_name": "제주항공 J 포인트 KB국민카드",
@@ -1531,8 +1467,7 @@
     ],
     "fee": "국내외겸용(JCB) 및 K-WORLD 연회비 20,000원, 면제조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2016.04.27",
-    "intro": "합리적 여행자를 위한 Must Have 카드"
+    "release_date": "2016.04.27"
   },
   {
     "card_name": "kt M mobileⅡ카드",
@@ -1554,8 +1489,7 @@
     ],
     "fee": "일반(실물)카드 20,000원 (국내전용 기본연회비 7천 원 + 제휴연회비 13천 원), 모바일 단독카드 14,000원 (기본연회비 1천 원 + 제휴연회비 13천 원)이며 최초 및 차기년도 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2025.04.01",
-    "intro": "통신요금을 절약하는 방법!"
+    "release_date": "2025.04.01"
   },
   {
     "card_name": "딜라이브 카드",
@@ -1573,8 +1507,7 @@
     ],
     "fee": "국내전용(Local) 및 국내외겸용(JCB/Master)의 연회비는 15,000원이며, 연회비 면제조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.07.15",
-    "intro": "딜라이브 자동납부 요금 매월 할인 받는 방법!"
+    "release_date": "2022.07.15"
   },
   {
     "card_name": "LG 헬로비전Ⅱ카드",
@@ -1594,8 +1527,7 @@
     ],
     "fee": "국내전용(Local) 및 Master 동일 연회비 2만 원, 모바일 단독카드 1만 4천 원, 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2025.01.24",
-    "intro": "LG 헬로비전 자동납부 매월 할인 받는 방법!"
+    "release_date": "2025.01.24"
   },
   {
     "card_name": "T-economy KB국민카드",
@@ -1613,8 +1545,7 @@
     ],
     "fee": "국내전용(Local) 및 국내외겸용(JCB/Master)의 연회비는 15,000원이며, 연회비 면제조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.05.31",
-    "intro": "SKT 통신요금을 알뜰하게 절약하는 방법!"
+    "release_date": "2022.05.31"
   },
   {
     "card_name": "토스모바일 KB국민카드",
@@ -1633,8 +1564,7 @@
     ],
     "fee": "국내전용(Local) 및 국내외겸용(Master) 카드의 연회비는 20,000원이며 초회/차기년도 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2023.07.21",
-    "intro": "통신요금 매월 할인 받는 방법!"
+    "release_date": "2023.07.21"
   },
   {
     "card_name": "Easy ring 티타늄카드",
@@ -1657,8 +1587,7 @@
     ],
     "fee": "일반카드: Local 및 Master 모두 3만 원, 모바일 단독카드: Local 및 Master 모두 2만4천 원, 연회비 면제조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.04.21",
-    "intro": "통신요금 할인은 기본, 다양한 혜택도 Easy!"
+    "release_date": "2021.04.21"
   },
   {
     "card_name": "Liiv M Ⅱ 카드",
@@ -1676,8 +1605,7 @@
     ],
     "fee": "국내전용(Local) 및 해외겸용(K-World(JCB), Master) 연회비 15,000원, 초회/차기년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.03.24",
-    "intro": "매월 Liiv M 통신비를 절약하는 방법!"
+    "release_date": "2021.03.24"
   },
   {
     "card_name": "알뜰폰 Hub Ⅱ 카드",
@@ -1694,8 +1622,7 @@
     ],
     "fee": "국내전용(Local) 및 해외겸용(K-World(JCB), Master) 연회비는 15,000원이며, 초회/차기년도 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.03.11",
-    "intro": "알뜰폰 통신비를 더 알뜰하게 절약하는 방법!"
+    "release_date": "2021.03.11"
   },
   {
     "card_name": "U＋유모바일Ⅱ카드",
@@ -1713,8 +1640,7 @@
     ],
     "fee": "국내전용(Local) 및 Master 동일 연회비 2만 원, 모바일 단독카드 1만 4천 원, 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2025.04.01",
-    "intro": "통신요금을 절약하는 방법!"
+    "release_date": "2025.04.01"
   },
   {
     "card_name": "LGU+ 라이트할부 Ⅱ KB국민카드",
@@ -1738,8 +1664,7 @@
       "정기결제 추가 청구할인은 전월 이용실적 30만 원 이상 시 1,000~2,000원 제공"
     ],
     "fee": "국내전용 연회비 없음, 국내외겸용(K-WORLD(JCB타입), Master) 20,000원이며 초회 및 차기년도 연회비 면제 조건 없음",
-    "overseas_usage": "해외에서 사용 가능",
-    "intro": "할인은 기본, 라이트할부 혜택의 힘!"
+    "overseas_usage": "해외에서 사용 가능"
   },
   {
     "card_name": "스마트 지킴이카드",
@@ -1759,8 +1684,7 @@
     ],
     "fee": "일반카드는 국내전용 및 국내외겸용 모두 연회비 15,000원, 모바일 단독카드는 9,000원이며 연회비 면제조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.10.27",
-    "intro": "우리 가족의 안전을 지켜주는 스마트한 카드 생활!"
+    "release_date": "2021.10.27"
   },
   {
     "card_name": "KT 할부 Plus KB국민카드",
@@ -1785,8 +1709,7 @@
     ],
     "fee": "국내전용 연회비 없음, 국내외겸용(K-WORLD(JCB타입), Master) 20,000원이며 초회 및 차기년도 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2019.03.27",
-    "intro": "할인은 기본, 라이트할부 혜택의 힘!"
+    "release_date": "2019.03.27"
   },
   {
     "card_name": "T 라이트 KB국민카드",
@@ -1811,8 +1734,7 @@
     ],
     "fee": "국내전용 연회비 없음, 국내외겸용(K-WORLD(JCB타입), Master) 20,000원이며 초회 및 차기년도 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2019.03.27",
-    "intro": "할인은 기본, 라이트할부 혜택의 힘!"
+    "release_date": "2019.03.27"
   },
   {
     "card_name": "SK 7mobile Ⅱ 카드",
@@ -1830,8 +1752,7 @@
     ],
     "fee": "국내전용(Local) 및 Master 동일 연회비 2만 원, 모바일 단독카드 1만 4천 원, 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2025.04.01",
-    "intro": "통신요금을 절약하는 방법!"
+    "release_date": "2025.04.01"
   },
   {
     "card_name": "KMVNO 알뜰폰 카드",
@@ -1849,8 +1770,7 @@
     ],
     "fee": "Local 15,000원, Master 15,000원, JCB(K-WORLD) 15,000원이며 초회/차기년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.07.29",
-    "intro": "매월 알뜰폰 통신비를 절약하는 방법!"
+    "release_date": "2022.07.29"
   },
   {
     "card_name": "KB Pay 챌린지+카드",
@@ -1893,8 +1813,7 @@
     ],
     "fee": "일반카드: Local 및 Mastercard 모두 55,000원, 모바일 단독카드: Local 및 Mastercard 모두 49,000원, 최초/2차년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2025.03.31",
-    "intro": "모두를 위한 더 많은 혜택"
+    "release_date": "2025.03.31"
   },
   {
     "card_name": "The Easy카드",
@@ -1913,8 +1832,7 @@
     ],
     "fee": "일반카드: Local 15,000원, Master 15,000원. 모바일 단독카드: Local 9,000원, Master 9,000원. 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2018.10.01",
-    "intro": "고민 없이 알아서 적립 Easy 할인 Easy"
+    "release_date": "2018.10.01"
   },
   {
     "card_name": "WE:SH Daily 카드",
@@ -1934,8 +1852,7 @@
     ],
     "fee": "일반카드 Local 및 Mastercard 연회비 15,000원, 모바일 단독카드 Local 및 Mastercard 연회비 9,000원, 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2024.07.01",
-    "intro": "데일리 스탬프 모으면 늘어나는 혜택"
+    "release_date": "2024.07.01"
   },
   {
     "card_name": "마이핏카드(적립형)",
@@ -1956,8 +1873,7 @@
     ],
     "fee": "모바일 단독카드의 경우, 국내 전용(Local)과 국내외겸용(Master) 모두 3만 원이며 초회 및 차기년도 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.06.01",
-    "intro": "#간편결제 #택시 #편의점 #쇼핑 #배달"
+    "release_date": "2021.06.01"
   },
   {
     "card_name": "Biz Prime 카드",
@@ -1983,8 +1899,7 @@
     ],
     "fee": "Local 120,000원, Amex 120,000원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2025.05.29",
-    "intro": "Life & Biz를 위한 균형 있는 혜택"
+    "release_date": "2025.05.29"
   },
   {
     "card_name": "WE:SH All 카드",
@@ -2004,8 +1919,7 @@
     ],
     "fee": "일반카드: Local 20,000원, Master 20,000원. 모바일 단독카드: Local 14,000원, Master 14,000원. 초회/차기년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.12.26",
-    "intro": "Simple Life를 위한 모두의 카드"
+    "release_date": "2022.12.26"
   },
   {
     "card_name": "KB Pay 챌린지카드",
@@ -2023,8 +1937,7 @@
     ],
     "fee": "일반카드 연회비 15,000원, 모바일 단독카드 연회비 9,000원이며 초회/차기년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.05.18",
-    "intro": "#간편결제 #택시 #편의점 #쇼핑 #배달"
+    "release_date": "2021.05.18"
   },
   {
     "card_name": "가온올림카드(실속형)",
@@ -2050,8 +1963,7 @@
     ],
     "fee": "일반카드 K-WORLD 및 국내외겸용(Master) 15,000원, 국내외겸용(Visa) 20,000원. 모바일 단독카드 K-WORLD 및 국내외겸용(Master) 9,000원, 국내외겸용(Visa) 14,000원. 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2015.03.24",
-    "intro": "실적조건 없이 국내가맹점 적립, 해외가맹점 캐시백!"
+    "release_date": "2015.03.24"
   },
   {
     "card_name": "웅진씽크빅 카드",
@@ -2068,8 +1980,7 @@
     ],
     "fee": "국내전용(Local) 또는 국내외겸용(JCB, Master) 카드는 연회비가 총 15,000원이며, 연회비 면제조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.04.23",
-    "intro": "웅진씽크빅 요금 매월 할인 받는 방법!"
+    "release_date": "2021.04.23"
   },
   {
     "card_name": "Our WE:SH 카드",
@@ -2093,8 +2004,7 @@
     ],
     "fee": "일반카드 국내전용 및 국내외겸용 15,000원, 모바일단독카드 9,000원, 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.12.26",
-    "intro": "함께 사는 '우리'를 위한 필수 카드"
+    "release_date": "2022.12.26"
   },
   {
     "card_name": "보람상조 KB카드",
@@ -2112,8 +2022,7 @@
     ],
     "fee": "국내전용 22,000원, 국내외겸용(Master) 22,000원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_datae": "2025.06.30",
-    "intro": "보람상조 자동납부 요금 매월 할인받는 방법!"
+    "release_datae": "2025.06.30"
   },
   {
     "card_name": "반려愛카드(강아지)",
@@ -2133,8 +2042,7 @@
     ],
     "fee": "K-WORLD(JCB 타입) 8,000원, Master 13,000원이며 연회비 면제 조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2014.07.30",
-    "intro": "반려동물을 사랑하는 마음. KB국민 반려애카드가 함께합니다!"
+    "release_date": "2014.07.30"
   },
   {
     "card_name": "비상온리원 카드",
@@ -2153,8 +2061,7 @@
     ],
     "fee": "국내전용(Local) 또는 국내외겸용(JCB, Master) 카드는 연회비가 총 15,000원이며, 연회비 면제조건 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.04.30",
-    "intro": "비상온리원 요금 매월 할인 받는 방법!"
+    "release_date": "2021.04.30"
   },
   {
     "card_name": "KB국민 펫코노미 카드",
@@ -2173,8 +2080,7 @@
     ],
     "fee": "국내전용(Local) 또는 국내외겸용(JCB, Master) 연회비 총 30,000원 (기본연회비 7,000원 + 제휴연회비 23,000원), 초회년도 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2017.07.28",
-    "intro": "반려동물을 사랑하는 현명한 방법!"
+    "release_date": "2017.07.28"
   },
   {
     "card_name": "골든라이프 올림카드",
@@ -2216,8 +2122,7 @@
     ],
     "fee": "국내전용(Local) 또는 해외겸용(K-World(JCB), Master) 연회비 15,000원, 기본연회비 7,000원, 제휴연회비 8,000원",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.07.22",
-    "intro": "매월 학습비를 절약하는 방법!"
+    "release_date": "2022.07.22"
   },
   {
     "card_name": "KB손해보험 마이펫카드",
@@ -2236,8 +2141,7 @@
     ],
     "fee": "국내전용(Local) 2만 원, 해외겸용(Master) 2만 원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2019.03.27",
-    "intro": "금쪽같은 우리 아이들을 위한"
+    "release_date": "2019.03.27"
   },
   {
     "card_name": "KB국민 노리2 체크카드",
@@ -2262,8 +2166,7 @@
     ],
     "fee": "연회비 정보 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.11.07",
-    "intro": "국민 대표 체크카드 시즌2 개막"
+    "release_date": "2022.11.07"
   },
   {
     "card_name": "우리동네체크카드_키뮤",
@@ -2290,8 +2193,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.04.11",
-    "intro": "다 같이 돌자 동네 한 바퀴"
+    "release_date": "2022.04.11"
   },
   {
     "card_name": "트래블러스 체크카드",
@@ -2318,8 +2220,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2024.04.22",
-    "intro": "여행이 일상인 프로여행러라면"
+    "release_date": "2024.04.22"
   },
   {
     "card_name": "노리체크카드",
@@ -2351,8 +2252,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2010.12.23",
-    "intro": "교통/통신 할인부터 커피숍과 영화관까지. 당신이 가는 곳곳마다 놀라운 할인 혜택!"
+    "release_date": "2010.12.23"
   },
   {
     "card_name": "노리2체크카드_Play",
@@ -2381,8 +2281,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2023.06.23",
-    "intro": "국민 대표 체크카드 시즌2 개막"
+    "release_date": "2023.06.23"
   },
   {
     "card_name": "청춘대로싱글체크카드",
@@ -2411,8 +2310,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2016.08.24",
-    "intro": "내 삶에 필요한 다양한 할인 혜택!"
+    "release_date": "2016.08.24"
   },
   {
     "card_name": "팡팡KB체크카드",
@@ -2438,8 +2336,7 @@
     ],
     "fee": "연회비 없음(국내전용(Local)만 발급 및 사용 가능, 해외결제 불가)",
     "overseas_usage": "해외에서 사용 불가",
-    "release_date": "2025.03.26",
-    "intro": "KB저축은행 결제계좌 전용상품"
+    "release_date": "2025.03.26"
   },
   {
     "card_name": "우리동네체크카드",
@@ -2466,8 +2363,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.04.11",
-    "intro": "다 같이 돌자 동네 한 바퀴"
+    "release_date": "2022.04.11"
   },
   {
     "card_name": "KB 틴업 체크카드",
@@ -2493,8 +2389,7 @@
     ],
     "fee": "연회비 없음(국내전용, Master, UPI 자유 선택 가능)",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2025.05.29",
-    "intro": "성장하는 고객에 맞춰 혜택이 Up"
+    "release_date": "2025.05.29"
   },
   {
     "card_name": "첵첵체크카드",
@@ -2517,8 +2412,7 @@
     ],
     "fee": "국내/국내외겸용(Master/Visa) 모두 연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2020.06.08",
-    "intro": "줄 서서 발급하는 혜택 맛집!"
+    "release_date": "2020.06.08"
   },
   {
     "card_name": "KB국민 첵첵 체크카드",
@@ -2546,8 +2440,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2019.03.27",
-    "intro": "줄 서서 발급하는 혜택 맛집!"
+    "release_date": "2019.03.27"
   },
   {
     "card_name": "토심이첵첵체크카드",
@@ -2573,8 +2466,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2019.03.27",
-    "intro": "줄 서서 발급하는 혜택 맛집!"
+    "release_date": "2019.03.27"
   },
   {
     "card_name": "노리2체크카드_Global",
@@ -2602,8 +2494,7 @@
     ],
     "fee": "무실적/미사용 시 연회비 없음 – 별도 유지비용 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.11.07",
-    "intro": "국민 대표 체크카드 시즌2 개막"
+    "release_date": "2022.11.07"
   },
   {
     "card_name": "KB국민그린체크카드",
@@ -2624,8 +2515,7 @@
     ],
     "fee": "발급비 및 후불교통카드 보증금 면제",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2012.02.20",
-    "intro": "할인도 받고 녹색실천도 하고! 착한 혜택의 힘!"
+    "release_date": "2012.02.20"
   },
   {
     "card_name": "기후동핵체크카드",
@@ -2644,8 +2534,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 불가",
-    "release_date": "2024.11.25",
-    "intro": "무제한으로 실천하는 기후동행"
+    "release_date": "2024.11.25"
   },
   {
     "card_name": "국민행복체크카드",
@@ -2667,8 +2556,7 @@
     ],
     "fee": "연회비 및 발급비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.02.01",
-    "intro": "보육료 및 임신·출산 진료비 지원 등 국가바우처 지원 가능"
+    "release_date": "2021.02.01"
   },
   {
     "card_name": "KB 전통시장온누리체크카드",
@@ -2688,8 +2576,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2025.06.30",
-    "intro": "전통시장과 온누리상품권의 특별한 혜택!!"
+    "release_date": "2025.06.30"
   },
   {
     "card_name": "히어로즈체크카드",
@@ -2713,8 +2600,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2024.07.16",
-    "intro": "청년제대군인 맞춤형 카드"
+    "release_date": "2024.07.16"
   },
   {
     "card_name": "나라사랑체크카드",
@@ -2748,8 +2634,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외 사용 불가",
-    "release_date": "2015.12.21",
-    "intro": "꿈꾸고 즐기는 청춘을 위한 다양한 할인 혜택"
+    "release_date": "2015.12.21"
   },
   {
     "card_name": "KB국민 쏘영 체크카드",
@@ -2771,8 +2656,7 @@
     ],
     "fee": "국내전용(Local), 국내외겸용(UPI): 연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2020.07.22",
-    "intro": "엄마카드 말고 내카드로 딱 맞는 할인"
+    "release_date": "2020.07.22"
   },
   {
     "card_name": "훈 체크카드",
@@ -2794,8 +2678,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2014.07.14",
-    "intro": "건강한 삶과 더 나은 미래를 꿈꾸는 20~30대를 위한 의료/교육 특화 체크카드"
+    "release_date": "2014.07.14"
   },
   {
     "card_name": "KB국민 샘 쏘영 체크카드",
@@ -2817,8 +2700,7 @@
     ],
     "fee": "국내전용(Local), 국내외겸용(UPI): 연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2020.07.22",
-    "intro": "엄마카드 말고 내카드로 딱 맞는 할인"
+    "release_date": "2020.07.22"
   },
   {
     "card_name": "KB국민 골든대로 체크카드",
@@ -2843,8 +2725,7 @@
     ],
     "fee": "국내전용(Local), 국내외겸용(Master) : 연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2019.06.21",
-    "intro": "건강하고 여유로운 생활을 위한 현명한 선택!"
+    "release_date": "2019.06.21"
   },
   {
     "card_name": "KB국민 새로이 체크카드",
@@ -2866,8 +2747,7 @@
     ],
     "fee": "국내전용(Local), 국내외 겸용(UPI) : 연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.02.22",
-    "intro": "새롭게 시작하는 모두에게 스마트한 혜택!"
+    "release_date": "2021.02.22"
   },
   {
     "card_name": "해피리워드 체크카드",
@@ -2887,8 +2767,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.09.15",
-    "intro": "My Happy Reward Check Card"
+    "release_date": "2021.09.15"
   },
   {
     "card_name": "KB국민 음 체크카드",
@@ -2911,8 +2790,7 @@
     ],
     "fee": "국내전용 연회비 없음, Master/VISA 연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2014.07.28",
-    "intro": "맛과 여유를 음미하며, 휴식을 통해 삶을 재충전하는 당신에게 어울리는 혜택"
+    "release_date": "2014.07.28"
   },
   {
     "card_name": "해피CU포인트 체크카드",
@@ -2932,8 +2810,7 @@
     ],
     "fee": "국내 전용(Local) 및 국내외 겸용(Master) 모두 연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2018.07.02",
-    "intro": "해피포인트 가맹점과 CU편의점 어디에서나 1+1%"
+    "release_date": "2018.07.02"
   },
   {
     "card_name": "LG U+ 체크카드",
@@ -2954,8 +2831,7 @@
     ],
     "fee": "Local 및 Master 브랜드 선택 가능, 연회비 정보 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2017.02.01",
-    "intro": "LG U+ 고객을 위한 스마트한 할인혜택"
+    "release_date": "2017.02.01"
   },
   {
     "card_name": "민체크카드",
@@ -2980,8 +2856,7 @@
     ],
     "fee": "Local, Master, VISA 연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2013.12.17",
-    "intro": "일상생활에 꼭 필요한 생활편의 맞춤 할인! 알뜰한 당신에게 꼭 필요한 할인 혜택"
+    "release_date": "2013.12.17"
   },
   {
     "card_name": "총무체크카드",
@@ -3003,8 +2878,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 불가",
-    "release_date": "2023.05.10",
-    "intro": "모임의 밥과 후식 할인 담당"
+    "release_date": "2023.05.10"
   },
   {
     "card_name": "토스USS NEXT",
@@ -3027,8 +2901,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2023.11.24",
-    "intro": "매일 받는 토스 회원 맞춤 혜택"
+    "release_date": "2023.11.24"
   },
   {
     "card_name": "Liiv M 체크카드",
@@ -3049,8 +2922,7 @@
     ],
     "fee": "국내전용(Local), 국내외겸용(VISA) : 연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2019.10.28",
-    "intro": "Liiv M 고객을 위한 스마트한 할인 혜택!"
+    "release_date": "2019.10.28"
   },
   {
     "card_name": "스타체크카드",
@@ -3082,8 +2954,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2007.03.08",
-    "intro": "별처럼 빛나는 다양한 혜택들, 당신이 머무는 곳마다 눈부신 할인 혜택"
+    "release_date": "2007.03.08"
   },
   {
     "card_name": "H.Point 체크카드",
@@ -3107,8 +2978,7 @@
     ],
     "fee": "국내전용(Local) 및 국내외겸용(Master) 모두 연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2017.08.10",
-    "intro": "KB국민 체크카드를 만나 더 강해진 현대백화점그룹 멤버십 혜택"
+    "release_date": "2017.08.10"
   },
   {
     "card_name": "KB국민 정 체크카드",
@@ -3132,8 +3002,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2014.05.28",
-    "intro": "현명한 쇼핑, 자신을 가꿀 줄 아는 센스 있는 여성을 위한 할인 혜택"
+    "release_date": "2014.05.28"
   },
   {
     "card_name": "KB국민 티머니 노리 학생증 체크카드",
@@ -3159,8 +3028,7 @@
     ],
     "fee": "Local 무료, Master 10,000원이며 초회년도 연회비 면제 없음",
     "overseas_usage": "해외에서 사용 가능, Master 브랜드 선택 시",
-    "release_date": "2010.12.23",
-    "intro": "교통/통신 할인부터 커피숍과 영화관까지. 당신이 가는 곳곳마다 놀라운 할인 혜택!"
+    "release_date": "2010.12.23"
   },
   {
     "card_name": "가온∙누리 체크카드",
@@ -3205,8 +3073,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2023.04.26",
-    "intro": "교통비 SAVE!! 생활서비스 이용 시 포인트리 적립 혜택 까지~"
+    "release_date": "2023.04.26"
   },
   {
     "card_name": "카카오페이 KB국민 체크카드",
@@ -3229,8 +3096,7 @@
     ],
     "fee": "국내전용(Local), 국내외 겸용(Master): 연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2018.09.13",
-    "intro": "카카오페이 X KB국민카드가 꿈꾸는 행복한 만남"
+    "release_date": "2018.09.13"
   },
   {
     "card_name": "가온올포인트체크카드",
@@ -3252,8 +3118,7 @@
     ],
     "fee": "국내 전용(Local) 및 국내외 겸용(Master, VISA, UPI) 모두 연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2017.07.03",
-    "intro": "언제나 어디서나 쌓이는 즐거움!"
+    "release_date": "2017.07.03"
   },
   {
     "card_name": "KB국민 레고랜드 체크카드",
@@ -3279,8 +3144,7 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2022.02..11",
-    "intro": "레고를 좋아한다면 꼭 체크해봐야 할 혜택!"
+    "release_date": "2022.02..11"
   },
   {
     "card_name": "그린재킷 체크카드",
@@ -3304,7 +3168,6 @@
     ],
     "fee": "연회비 없음",
     "overseas_usage": "해외에서 사용 가능",
-    "release_date": "2021.06.14",
-    "intro": "골퍼들이 꿈꾸는 그린재킷을 내 손에"
+    "release_date": "2021.06.14"
   }
 ]
