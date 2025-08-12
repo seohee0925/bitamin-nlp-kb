@@ -3,17 +3,19 @@ from openai import OpenAI
 import os
 from datetime import datetime
 import re # 정규 표현식 모듈 추가
+from dotenv import load_dotenv
 
 class CardGenerator:
     def __init__(self):
         """카드 답변 생성기 초기화"""
+        os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
+        load_dotenv()  # .env 파일 로드
         self.client = None
         self.selected_cards = []  # 선택된 카드들을 저장할 리스트
         self.init_openai_client()
-    
+
     def init_openai_client(self):
         """OpenAI 클라이언트 초기화"""
-        # 환경변수에서 API 키 확인
         api_key = os.getenv('OPENAI_API_KEY')
         
         if not api_key:
@@ -284,19 +286,16 @@ class CardGenerator:
             print("📋 삭제할 카드 목록이 없습니다.")
     
     def start_original_rag_chat(self, selected_card, original_question):
+        from original_rag import FAISSRAGRetriever
         """Original RAG 채팅 시작"""
         print(f"\n🎯 {selected_card['card_name']} 상세 정보 채팅")
         print("="*60)
         print("💡 이제 선택하신 카드에 대해 더 자세한 질문을 할 수 있습니다.")
         print("예시: 이용약관, 연회비 면제 조건, 할인 한도, 해외 수수료 등")
+        print("💬 '쉽게'를 질문 앞에 붙이면 쉬운 설명으로 답변합니다.")
         print("종료하려면 'quit' 또는 'exit'를 입력하세요.")
         print("="*60)
-        
-        # TODO: Original RAG 시스템 연결
-        # 1. 선택된 카드의 상세 정보 로드
-        # 2. 이용약관, 혜택 상세, 주의사항 등 검색
-        # 3. 사용자 질문에 대한 답변 생성
-        
+
         while True:
             try:
                 chat_question = input(f"\n💬 {selected_card['card_name']}에 대해 질문하세요: ").strip()
@@ -308,32 +307,35 @@ class CardGenerator:
                 if not chat_question:
                     print("❌ 질문을 입력해주세요.")
                     continue
-                
-                # Original RAG 기능은 현재 개발 중
+
+                # 쉬운 설명 요청 확인
+                explain_easy = False
+                if chat_question.startswith('쉽게 ') or chat_question.startswith('쉽게'):
+                    explain_easy = True
+                    chat_question = chat_question.replace('쉽게 ', '').replace('쉽게', '').strip()
+                    print(f"🌟 쉬운 설명으로 답변드리겠습니다!")
+
                 print(f"\n🔍 '{chat_question}' 검색 중...")
-                print("📋 Original RAG 시스템에서 답변을 생성 중입니다...")
-                
-                # 개발 중 메시지 표시
-                print(f"\n💡 {selected_card['card_name']} 관련 답변:")
+                original_rag = FAISSRAGRetriever()
+                # ✅ 실제 Original RAG 호출
+                answer = original_rag.query(
+                    card_name=selected_card['card_name'],  # selected_cards.json에서 가져온 카드명
+                    card_text=selected_card.get('card_text', ''),  # 호환성을 위해 전달
+                    question=chat_question,
+                    explain_easy=explain_easy
+                )
+
+                print("\n💡 답변:")
                 print("="*50)
-                print("🚧 Original RAG 기능은 현재 개발 중입니다 🚧")
-                print("")
-                print("이 기능에서는 다음과 같은 상세 정보를 제공할 예정입니다:")
-                print("• 이용약관 및 상세 조건")
-                print("• 연회비 면제 조건")
-                print("• 할인 한도 및 제한사항")
-                print("• 해외 사용 시 수수료")
-                print("• 발급 조건 및 서류")
-                print("• 기타 상세 혜택 정보")
-                print("")
-                print("Original RAG 시스템이 완성되면 더 정확하고 상세한 답변을 제공할 수 있습니다.")
+                print(answer)
                 print("="*50)
-                
+
             except KeyboardInterrupt:
                 print("\n👋 Original RAG 채팅을 종료합니다.")
                 break
             except Exception as e:
                 print(f"❌ 처리 중 오류가 발생했습니다: {e}")
+                print("🔄 다시 시도해주세요.")
 
 def main():
     """실제 retriever와 연동하는 메인 함수"""
@@ -495,21 +497,21 @@ def main():
                                 print(f"   원본 질문: {question}")
                                 print("="*60)
                                 
-                                # Original RAG는 개발 중 메시지 표시
-                                print("\n" + "="*60)
-                                print("🚧 Original RAG는 개발 중입니다 🚧")
-                                print("="*60)
-                                print("")
-                                print("이 기능에서는 다음과 같은 상세 정보를 제공할 예정입니다:")
-                                print("• 이용약관 및 상세 조건")
-                                print("• 연회비 면제 조건")
-                                print("• 할인 한도 및 제한사항")
-                                print("• 해외 사용 시 수수료")
-                                print("• 발급 조건 및 서류")
-                                print("• 기타 상세 혜택 정보")
-                                print("")
-                                print("Original RAG 시스템이 완성되면 더 정확하고 상세한 답변을 제공할 수 있습니다.")
-                                print("="*60)
+                                generator.start_original_rag_chat(selected_card, question)
+                                # print("\n" + "="*60)
+                                # print("🚧 Original RAG는 개발 중입니다 🚧")
+                                # print("="*60)
+                                # print("")
+                                # print("이 기능에서는 다음과 같은 상세 정보를 제공할 예정입니다:")
+                                # print("• 이용약관 및 상세 조건")
+                                # print("• 연회비 면제 조건")
+                                # print("• 할인 한도 및 제한사항")
+                                # print("• 해외 사용 시 수수료")
+                                # print("• 발급 조건 및 서류")
+                                # print("• 기타 상세 혜택 정보")
+                                # print("")
+                                # print("Original RAG 시스템이 완성되면 더 정확하고 상세한 답변을 제공할 수 있습니다.")
+                                # print("="*60)
                                 
                                 # Original RAG 채팅 종료 후 다시 메인 플로우로
                                 print(f"\n💡 {selected_card['card_name']} Original RAG 채팅이 종료되었습니다.")
