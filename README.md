@@ -78,9 +78,6 @@ python card_generator.py
 │   ├── cards_summary_with_intro.json
 │   └── embed_cards_separated.py
 │
-├── 📁 UI
-│   ├── app.py
-│   └── example.html
 │
 ├── 📁 Summary RAG
 │   ├── card_generator.py
@@ -89,6 +86,9 @@ python card_generator.py
 │
 ├── 📁 Original RAG
 │   └── original_rag.py
+├── 📁 UI
+│   ├── app.py
+│   └── example.html
 │
 └── 📄 requirements.txt
 ```
@@ -121,7 +121,7 @@ python card_generator.py
 
 - **Backend**: Python, FastAPI
 - **AI/ML**: OpenAI GPT, FAISS, BM25, Crossencoder Reranker
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: fastAPI
 - **Data Processing**: JSON, PDF Processing
 - **Vector Search**: FAISS, Cosine Similarity
 
