@@ -195,4 +195,4 @@ def main():
     process_cards_to_embeddings_separated(input_file, output_dir)
 
 if __name__ == "__main__":
-    main() 
+    main()
