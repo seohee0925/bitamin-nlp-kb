@@ -28,6 +28,9 @@ class FAISSCardRetriever:
     
     def load_embeddings(self, credit_file_path, check_file_path):
         """신용카드와 체크카드 임베딩 데이터 로드"""
+        credit_file_path = "C://Users//USER//Desktop//대학교//동아리//BITAmin//25-NLP//bitamin-nlp-kb//embeddings//embeddings//credit_card_embedding_data.pkl"
+        check_file_path = "C://Users//USER//Desktop//대학교//동아리//BITAmin//25-NLP//bitamin-nlp-kb//embeddings//embeddings//check_card_embedding_data.pkl"
+
         try:
             # 신용카드 데이터 로드
             if os.path.exists(credit_file_path):
@@ -94,48 +97,103 @@ class FAISSCardRetriever:
         
         # 카드 타입에 따라 검색
         if card_type.lower() in ["all", "credit", "신용카드"] and self.credit_faiss_index:
-            # 신용카드 검색
-            distances, indices = self.credit_faiss_index.search(question_vector, top_k)
+            # 신용카드 검색 - FAISS 인덱스 상태 확인
+            try:
+                # 인덱스가 유효한지 먼저 확인
+                if not hasattr(self.credit_faiss_index, 'search'):
+                    print("❌ 신용카드 FAISS 인덱스에 search 메서드가 없습니다.")
+                    raise AttributeError("Invalid FAISS index")
+                
+                # 인덱스의 데이터 개수 확인 (안전한 방법)
+                try:
+                    index_size = self.credit_faiss_index.ntotal
+                    if index_size == 0:
+                        print("❌ 신용카드 FAISS 인덱스가 비어있습니다.")
+                        raise ValueError("Empty FAISS index")
+                except:
+                    print("❌ 신용카드 FAISS 인덱스 상태를 확인할 수 없습니다. 인덱스가 손상되었을 가능성이 있습니다.")
+                    raise ValueError("Corrupted FAISS index")
+                
+                # 검색 실행
+                distances, indices = self.credit_faiss_index.search(question_vector, top_k)
+                
+            except Exception as e:
+                print(f"❌ 신용카드 FAISS 검색 오류: {e}")
+                print("💡 해결방법: embed_cards.py를 다시 실행하여 FAISS 인덱스를 재생성해주세요.")
+                # 신용카드 검색을 건너뛰고 계속 진행
+                if card_type.lower() == "credit":
+                    return [], 0  # 신용카드만 검색하는 경우 빈 결과 반환
+                else:
+                    # 전체 검색인 경우 체크카드 검색으로 넘어감
+                    pass
             
             for i, (similarity, idx) in enumerate(zip(distances[0], indices[0])):
-                # FAISS의 IndexFlatIP는 내적을 반환하므로 직접 코사인 유사도
-                # 벡터가 정규화되어 있으므로 내적 = 코사인 유사도
-                cosine_similarity = similarity
-                card_meta = self.credit_metadata[idx]
-                card_text = self.credit_texts[idx]
-                
-                all_results.append({
-                    'rank': len(all_results) + 1,
-                    'card_name': card_meta['card_name'],
-                    'card_type': card_meta['card_type'],
-                    'keyword': card_meta['keyword'],
-                    'similarity_score': round(cosine_similarity, 4),
-                    'distance': round(1 - cosine_similarity, 4),  # 코사인 거리로 변환
-                    'card_text': card_text,
-                    'search_type': '신용카드'
-                })
+                # 유효한 인덱스인지 확인
+                if idx >= 0 and idx < len(self.credit_metadata):
+                    # FAISS의 IndexFlatIP는 내적을 반환하므로 직접 코사인 유사도
+                    # 벡터가 정규화되어 있으므로 내적 = 코사인 유사도
+                    cosine_similarity = similarity
+                    card_meta = self.credit_metadata[idx]
+                    card_text = self.credit_texts[idx]
+                    
+                    all_results.append({
+                        'rank': len(all_results) + 1,
+                        'card_name': card_meta['card_name'],
+                        'card_type': card_meta['card_type'],
+                        'keyword': card_meta['keyword'],
+                        'similarity_score': round(cosine_similarity, 4),
+                        'distance': round(1 - cosine_similarity, 4),  # 코사인 거리로 변환
+                        'card_text': card_text,
+                        'search_type': '신용카드'
+                    })
         
         if card_type.lower() in ["all", "check", "체크카드"] and self.check_faiss_index:
-            # 체크카드 검색
-            distances, indices = self.check_faiss_index.search(question_vector, top_k)
+            # 체크카드 검색 - FAISS 인덱스 상태 확인
+            try:
+                # 인덱스가 유효한지 먼저 확인
+                if not hasattr(self.check_faiss_index, 'search'):
+                    print("❌ 체크카드 FAISS 인덱스에 search 메서드가 없습니다.")
+                    raise AttributeError("Invalid FAISS index")
+                
+                # 인덱스의 데이터 개수 확인 (안전한 방법)
+                try:
+                    index_size = self.check_faiss_index.ntotal
+                    if index_size == 0:
+                        print("❌ 체크카드 FAISS 인덱스가 비어있습니다.")
+                        raise ValueError("Empty FAISS index")
+                except:
+                    print("❌ 체크카드 FAISS 인덱스 상태를 확인할 수 없습니다. 인덱스가 손상되었을 가능성이 있습니다.")
+                    raise ValueError("Corrupted FAISS index")
+                
+                # 검색 실행
+                distances, indices = self.check_faiss_index.search(question_vector, top_k)
+                
+            except Exception as e:
+                print(f"❌ 체크카드 FAISS 검색 오류: {e}")
+                print("💡 해결방법: embed_cards.py를 다시 실행하여 FAISS 인덱스를 재생성해주세요.")
+                # 체크카드 검색을 건너뛰고 계속 진행
+                if card_type.lower() == "check":
+                    return [], 0  # 체크카드만 검색하는 경우 빈 결과 반환
             
             for i, (similarity, idx) in enumerate(zip(distances[0], indices[0])):
-                # FAISS의 IndexFlatIP는 내적을 반환하므로 직접 코사인 유사도
-                # 벡터가 정규화되어 있으므로 내적 = 코사인 유사도
-                cosine_similarity = similarity
-                card_meta = self.check_metadata[idx]
-                card_text = self.check_texts[idx]
-                
-                all_results.append({
-                    'rank': len(all_results) + 1,
-                    'card_name': card_meta['card_name'],
-                    'card_type': card_meta['card_type'],
-                    'keyword': card_meta['keyword'],
-                    'similarity_score': round(cosine_similarity, 4),
-                    'distance': round(1 - cosine_similarity, 4),  # 코사인 거리로 변환
-                    'card_text': card_text,
-                    'search_type': '체크카드'
-                })
+                # 유효한 인덱스인지 확인
+                if idx >= 0 and idx < len(self.check_metadata):
+                    # FAISS의 IndexFlatIP는 내적을 반환하므로 직접 코사인 유사도
+                    # 벡터가 정규화되어 있으므로 내적 = 코사인 유사도
+                    cosine_similarity = similarity
+                    card_meta = self.check_metadata[idx]
+                    card_text = self.check_texts[idx]
+                    
+                    all_results.append({
+                        'rank': len(all_results) + 1,
+                        'card_name': card_meta['card_name'],
+                        'card_type': card_meta['card_type'],
+                        'keyword': card_meta['keyword'],
+                        'similarity_score': round(cosine_similarity, 4),
+                        'distance': round(1 - cosine_similarity, 4),  # 코사인 거리로 변환
+                        'card_text': card_text,
+                        'search_type': '체크카드'
+                    })
         
         # 유사도 점수로 정렬 (코사인 유사도는 높을수록 유사)
         all_results.sort(key=lambda x: x['similarity_score'], reverse=True)
@@ -147,7 +205,7 @@ class FAISSCardRetriever:
         search_time = time.time() - start_time
         
         return all_results[:top_k], search_time
-    
+      
     def search_cards(self, question, card_type="all", top_k=5):
         """카드 검색 실행"""
         card_type_display = "전체" if card_type.lower() == "all" else card_type
