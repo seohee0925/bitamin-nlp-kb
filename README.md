@@ -38,6 +38,8 @@ python card_generator.py
 1. **카드 타입 선택**: 전체/신용카드/체크카드
 2. **질문 입력**: "대중교통 혜택이 좋은 카드 추천해줘"
 3. **카드 선택**: 추천된 카드 중 선택하여 상세 정보 확인
+4. **상세 질의응답**: 선택한 카드에 대해서 구체적으로 질문 및 응답
+5. **쉽게 설명**: 답변에 대한 쉬운 설명 요청
 
 ## 📝 예시 질문
 
@@ -86,6 +88,7 @@ python card_generator.py
 │
 ├── 📁 Original RAG
 │   └── original_rag.py
+│
 ├── 📁 UI
 │   ├── app.py
 │   └── example.html
@@ -119,9 +122,8 @@ python card_generator.py
 
 ## 🔧 기술 스택
 
-- **Backend**: Python, FastAPI
+- **Frontend**: Python, FastAPI
 - **AI/ML**: OpenAI GPT, FAISS, BM25, Crossencoder Reranker
-- **Frontend**: fastAPI
 - **Data Processing**: JSON, PDF Processing
 - **Vector Search**: FAISS, Cosine Similarity
 
@@ -161,42 +163,6 @@ python card_generator.py
 - **약관 해석**: 복잡한 금융 약관을 쉽게 풀어서 설명
 - **대화형 인터페이스**: 자연어 기반의 직관적인 사용자 경험
 - **실시간 검색**: FAISS 기반의 빠른 벡터 검색
-
-## 🚀 실행 방법
-
-### 콘솔 버전
-```bash
-cd Summary\ RAG
-python card_generator.py
-```
-
-### 웹 UI 버전
-```bash
-cd UI
-uvicorn app:app --reload
-```
-
-브라우저에서 `http://localhost:8000`으로 접속
-
-## 💡 사용 예시
-
-1. **카드 추천 요청**
-   ```
-   사용자: "대중교통 혜택이 좋은 카드 추천해줘"
-   시스템: [상위 3개 카드 추천 및 비교 분석 제공]
-   ```
-
-2. **카드 선택 및 상세 정보**
-   ```
-   사용자: 1번 카드 선택
-   시스템: [선택된 카드의 상세 약관 및 혜택 정보 제공]
-   ```
-
-3. **추가 질문**
-   ```
-   사용자: "이 카드의 연회비는 얼마야?"
-   시스템: [해당 카드의 연회비 및 관련 조건 설명]
-   ```
 
 ---
 
