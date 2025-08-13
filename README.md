@@ -42,12 +42,9 @@ python card_generator.py
 5. **쉽게 설명**: 답변에 대한 쉬운 설명 요청
 
 ## 📝 예시 질문
-
-- "대중교통 혜택이 좋은 카드 추천해줘"
-- "연회비가 없는 카드 찾아줘"
-- "쇼핑 할인 혜택이 있는 카드 알려줘"
-- "외식 할인이 많은 카드 추천해줘"
-- "주유 할인 혜택이 있는 카드 찾아줘"
+- "나는 40대 주부이고, 대형마트·온라인몰에서 장을 많이 봐. 마트·온라인 쇼핑 할인 카드가 필요해."
+- "카페 결제와 편의점 이용이 많아. 커피·편의점 혜택 카드가 좋아."
+- "연회비 부담은 낮았으면 하고, 포인트보다 즉시 할인을 선호해. 저연회비 할인형 카드를 찾고 있어."
 
 ## 🏗️ 시스템 아키텍처
 
@@ -112,13 +109,13 @@ python card_generator.py
   - `original_rag.py`: 사용자의 질의를 받아 FAISS, BM25, RRF, Crossencoder Reranker를 통해 가장 관련성 높은 문서를 찾아내고, 이를 GPT-4o에 전달해 1차 응답을 생성한 뒤 GPT-4로 한 번 더 다듬어 최종적으로 명확하고 완성도 높은 답변을 제공하는 파일
 
 ### Embeddings
-- **sep_embeddings**: 카드 추천 챗봇의 문서 검색(Retrieval) 기능을 위한 임베딩 데이터가 저장되어 있으며 카드별로 텍스트 데이터를 벡터화한 FAISS 인덱스로 구축한 결과물이 포함되어 있습니다
-- **cards_summary_with_intro.json**: 카드 요약 정보와 소개 데이터 파일
-- **embed_cards_separated.py**: 임베딩 생성 스크립트
+- `sep_embeddings`: 카드 추천 챗봇의 문서 검색(Retrieval) 기능을 위한 임베딩 데이터가 저장되어 있으며 카드별로 텍스트 데이터를 벡터화한 FAISS 인덱스로 구축한 결과물이 포함되어 있습니다
+- `cards_summary_with_intro.json`: 카드 요약 정보와 소개 데이터 파일
+- `embed_cards_separated.py`: 임베딩 생성 스크립트
 
 ### UI
-- **app.py**: FastAPI 기반의 백엔드 엔트리포인트로, 루트(/)에서 example.html을 렌더링하고 /recommend(POST)에서 사용자 입력을 받아 RAG Generator + Rewrite를 실행해 응답과 후속 질문을 관리합니다. 동시에 정적 파일(/static)을 서빙하고 .env 환경변수도 로드하며, 로컬 개발은 uvicorn app:app --reload 명령으로 바로 실행할 수 있도록 구성되어 있습니다
-- **example.html**: Jinja2 템플릿의 챗봇 UI로, 대화 말풍선을 자연스럽게 렌더링하고 사용자 입력 폼과 "쉽게 설명", "이 답변에 대해 질문하기" 버튼을 제공하며, 로딩(대기) 상태와 카드 추천 섹션까지 한 화면에서 보여줍니다. 서버에서 전달된 chat_history를 그대로 반영해 이전 대화 맥락을 이어주도록 설계되어 있습니다
+- `app.py`: FastAPI 기반의 백엔드 엔트리포인트로, 루트(/)에서 example.html을 렌더링하고 /recommend(POST)에서 사용자 입력을 받아 RAG Generator + Rewrite를 실행해 응답과 후속 질문을 관리합니다. 동시에 정적 파일(/static)을 서빙하고 .env 환경변수도 로드하며, 로컬 개발은 uvicorn app:app --reload 명령으로 바로 실행할 수 있도록 구성되어 있습니다
+- `example.html`: Jinja2 템플릿의 챗봇 UI로, 대화 말풍선을 자연스럽게 렌더링하고 사용자 입력 폼과 "쉽게 설명", "이 답변에 대해 질문하기" 버튼을 제공하며, 로딩(대기) 상태와 카드 추천 섹션까지 한 화면에서 보여줍니다. 서버에서 전달된 chat_history를 그대로 반영해 이전 대화 맥락을 이어주도록 설계되어 있습니다
 
 ## 🔧 기술 스택
 
@@ -167,4 +164,7 @@ python card_generator.py
 ---
 
 **KB 카드 추천 시스템**으로 최적의 카드를 찾아보세요! 💳 <br>
-시연 연상: https://www.youtube.com/watch?v=Piwf24nMLa4&feature=youtu.be
+
+🎥 실제 작동하는 KB 카드 추천 시스템을 영상으로 확인하세요!
+사용자 질문부터 카드 추천, 상세 정보 제공까지의 전체 과정을 데모로 보실 수 있습니다.
+https://www.youtube.com/watch?v=Piwf24nMLa4&feature=youtu.be
