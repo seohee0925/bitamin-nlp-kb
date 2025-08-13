@@ -118,11 +118,10 @@ python card_generator.py
 - `example.html`: Jinja2 템플릿의 챗봇 UI로, 대화 말풍선을 자연스럽게 렌더링하고 사용자 입력 폼과 "쉽게 설명", "이 답변에 대해 질문하기" 버튼을 제공하며, 로딩(대기) 상태와 카드 추천 섹션까지 한 화면에서 보여줍니다. 서버에서 전달된 chat_history를 그대로 반영해 이전 대화 맥락을 이어주도록 설계되어 있습니다
 
 ## 🔧 기술 스택
-
-- **Frontend**: Python, FastAPI
-- **AI/ML**: OpenAI GPT, FAISS, BM25, Crossencoder Reranker
 - **Data Processing**: JSON, PDF Processing
 - **Vector Search**: FAISS, Cosine Similarity
+- **AI/ML**: OpenAI GPT, FAISS, BM25, Crossencoder Reranker
+- **Frontend**: Python, FastAPI
 
 ## 👥 역할 분담
 
