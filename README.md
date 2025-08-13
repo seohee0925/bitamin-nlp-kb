@@ -99,6 +99,11 @@ python card_generator.py
 - **Original JSON**: KB국민카드(신용/체크) 상품설명서·주요거래조건 PDF를 원문 구조 그대로 JSON화한 파일로, 섹션/항목(혜택, 조건, 연회비 등)을 보존한 근거 데이터입니다.
 - **Summary JSON**: Original JSON(원문 약관 데이터)을 기반으로, LLM을 통해 카드명·브랜드·주요 혜택·적용 조건·대상 고객·연회비 등의 핵심 정보만 발췌한 요약본입니다. *(Dual RAG에서 추천 단계의 빠른 검색과 응답 생성을 위해 사용)*
 
+### Embeddings
+- `sep_embeddings`: 카드 추천 챗봇의 문서 검색(Retrieval) 기능을 위한 임베딩 데이터가 저장되어 있으며 카드별로 텍스트 데이터를 벡터화한 FAISS 인덱스로 구축한 결과물이 포함되어 있습니다
+- `cards_summary_with_intro.json`: 카드 요약 정보와 소개 데이터 파일
+- `embed_cards_separated.py`: 임베딩 생성 스크립트
+
 ### RAG 시스템
 - **Summary RAG**: 
   - `card_generator.py`: 사용자가 카드 관련 질문을 입력하면 Summary RAG의 retriever가 FAISS 기반 검색으로 상위 3개 카드 후보를 찾고, GPT로 추천·비교 분석을 생성하며, 선택된 카드는 Original RAG를 통해 상세 약관·혜택 정보를 검색·생성하는 콘솔형 카드 추천 메인 실행 파일
@@ -107,11 +112,6 @@ python card_generator.py
 
 - **Original RAG**: 
   - `original_rag.py`: 사용자의 질의를 받아 FAISS, BM25, RRF, Crossencoder Reranker를 통해 가장 관련성 높은 문서를 찾아내고, 이를 GPT-4o에 전달해 1차 응답을 생성한 뒤 GPT-4로 한 번 더 다듬어 최종적으로 명확하고 완성도 높은 답변을 제공하는 파일
-
-### Embeddings
-- `sep_embeddings`: 카드 추천 챗봇의 문서 검색(Retrieval) 기능을 위한 임베딩 데이터가 저장되어 있으며 카드별로 텍스트 데이터를 벡터화한 FAISS 인덱스로 구축한 결과물이 포함되어 있습니다
-- `cards_summary_with_intro.json`: 카드 요약 정보와 소개 데이터 파일
-- `embed_cards_separated.py`: 임베딩 생성 스크립트
 
 ### UI
 - `app.py`: FastAPI 기반의 백엔드 엔트리포인트로, 루트(/)에서 example.html을 렌더링하고 /recommend(POST)에서 사용자 입력을 받아 RAG Generator + Rewrite를 실행해 응답과 후속 질문을 관리합니다. 동시에 정적 파일(/static)을 서빙하고 .env 환경변수도 로드하며, 로컬 개발은 uvicorn app:app --reload 명령으로 바로 실행할 수 있도록 구성되어 있습니다
