@@ -1,9 +1,0 @@
-# 환경변수 파일
-.env
-
-# Python
-__pycache__/
-*.pyc
-
-# 기타
-.DS_Store
