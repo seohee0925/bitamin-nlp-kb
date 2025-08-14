@@ -118,7 +118,7 @@ python card_generator.py
 
   
 - **Original RAG**:
-  - `selected_cards.json`: 사용자에게 맞춤형으로 추천된 카드들 중에서 사용자가 선택한 1가지의 카드 예시
+  - `selected_cards.json`: 사용자에게 맞춤형으로 추천된 카드들에 대한 하나의 예시
   - `original_rag.py`: 사용자의 질의를 받아 FAISS, BM25, RRF, Crossencoder Reranker를 통해 가장 관련성 높은 문서를 찾아내고, 이를 GPT-4o에 전달해 1차 응답을 생성한 뒤 GPT-4로 한 번 더 다듬어 최종적으로 명확하고 완성도 높은 답변을 제공하는 파일
 
 
