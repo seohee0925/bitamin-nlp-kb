@@ -1,93 +1,86 @@
 [
   {
-    "timestamp": "2025-08-05T16:28:59.599791",
-    "question": "군인 추천 카드",
-    "card_type": "check",
-    "card_name": "나라사랑체크카드",
-    "keyword": "공공/지원"
-  },
-  {
-    "timestamp": "2025-08-05T16:55:37.904882",
-    "question": "나이든 할머니 할아버지에게 추천",
+    "card_name": "랭킹닭컴 신용카드",
     "card_type": "credit",
-    "card_name": "KB손해보험 마이펫카드",
-    "keyword": "교육/건강"
+    "keyword": "음식/카페",
+    "from": "SummaryRAG",
+    "timestamp": 1755063522
   },
   {
-    "timestamp": "2025-08-06T23:20:27.606462",
-    "question": "주유가 1순위로 중요하고 그다음은 커피를 좀 마시는데 적당한카드",
+    "card_name": "골든라이프 올림카드",
     "card_type": "credit",
-    "card_name": "Easy auto 티타늄카드",
-    "keyword": "주유 교통"
+    "keyword": "교육/건강",
+    "from": "SummaryRAG",
+    "timestamp": 1755064095
   },
   {
-    "timestamp": "2025-08-06T23:45:18.008034",
-    "question": "20대 추천",
+    "card_name": "골든라이프 올림카드",
     "card_type": "credit",
-    "card_name": "굿데이올림카드",
-    "keyword": "주유 교통"
+    "keyword": "교육/건강",
+    "from": "SummaryRAG",
+    "timestamp": 1755064925
   },
   {
-    "timestamp": "2025-08-06T23:47:45.987032",
-    "question": "20대 추천 카드",
-    "card_type": "check",
-    "card_name": "훈 체크카드",
-    "keyword": "교육/의료"
-  },
-  {
-    "timestamp": "2025-08-06T23:53:04.929507",
-    "question": "20대 추천 카드",
-    "card_type": "check",
-    "card_name": "훈 체크카드",
-    "keyword": "교육/의료"
-  },
-  {
-    "timestamp": "2025-08-09T08:14:20.916242",
-    "question": "쇼핑을 즐겨하는 20대에게 카드를 추천해줘",
+    "card_name": "골든라이프 올림카드",
     "card_type": "credit",
-    "card_name": "K-패스카드",
-    "keyword": "주유/교통"
+    "keyword": "교육/건강",
+    "from": "SummaryRAG",
+    "timestamp": 1755066253
   },
   {
-    "timestamp": "2025-08-09T09:32:09.311768",
-    "question": "쇼핑을 즐겨하는 20대에게 카드를 추천해줘",
-    "card_type": "check",
-    "card_name": "노리체크카드",
-    "keyword": "할인"
-  },
-  {
-    "timestamp": "2025-08-09T09:36:30.231866",
-    "question": "쇼핑을 즐겨하는 20대에게 카드를 추천해줘",
-    "card_type": "check",
-    "card_name": "K-패스체크카드",
-    "keyword": "적립"
-  },
-  {
-    "timestamp": "2025-08-09T09:38:55.925429",
-    "question": "쇼핑을 즐겨하는 20대에게 카드를 추천해줘",
-    "card_type": "all",
-    "card_name": "K-패스카드",
-    "keyword": "주유/교통"
-  },
-  {
-    "timestamp": "2025-08-09T10:03:13.470081",
-    "question": "이제 사회생활을 막 시작하는 청년에게 카드를 추천해줘",
-    "card_type": "all",
-    "card_name": "훈 체크카드",
-    "keyword": "교육/의료"
-  },
-  {
-    "timestamp": "2025-08-09T10:09:14.816549",
-    "question": "이제 사회생활을 시작하는 청년에게 카드를 추천해줘",
-    "card_type": "all",
-    "card_name": "훈 체크카드",
-    "keyword": "교육/의료"
-  },
-  {
-    "timestamp": "2025-08-09T14:46:35.244784",
-    "question": "지금 백수인 사람에게 카드를 추천해줘",
+    "card_name": "랭킹닭컴 신용카드",
     "card_type": "credit",
-    "card_name": "H.Point KB국민카드",
-    "keyword": "쇼핑/간편결제"
+    "keyword": "음식/카페",
+    "from": "SummaryRAG",
+    "timestamp": 1755071775
+  },
+  {
+    "card_name": "랭킹닭컴 신용카드",
+    "card_type": "credit",
+    "keyword": "음식/카페",
+    "from": "SummaryRAG",
+    "timestamp": 1755072929
+  },
+  {
+    "card_name": "톡톡 with카드",
+    "card_type": "credit",
+    "keyword": "음식/카페",
+    "from": "SummaryRAG",
+    "timestamp": 1755076230
+  },
+  {
+    "card_name": "톡톡 with카드",
+    "card_type": "credit",
+    "keyword": "음식/카페",
+    "from": "SummaryRAG",
+    "timestamp": 1755077538
+  },
+  {
+    "card_name": "톡톡 with카드",
+    "card_type": "credit",
+    "keyword": "음식/카페",
+    "from": "SummaryRAG",
+    "timestamp": 1755079279
+  },
+  {
+    "card_name": "WE:SH Travel 카드",
+    "card_type": "credit",
+    "keyword": "항공/해외",
+    "from": "SummaryRAG",
+    "timestamp": 1755079742
+  },
+  {
+    "card_name": "톡톡 with카드",
+    "card_type": "credit",
+    "keyword": "음식/카페",
+    "from": "SummaryRAG",
+    "timestamp": 1755080501
+  },
+  {
+    "card_name": "톡톡 with카드",
+    "card_type": "credit",
+    "keyword": "음식/카페",
+    "from": "SummaryRAG",
+    "timestamp": 1755081855
   }
 ]
