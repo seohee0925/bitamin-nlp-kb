@@ -49,7 +49,8 @@ python card_generator.py
 ## 🏗️ 시스템 아키텍처
 
 이 프로젝트는 **Dual RAG** 구조를 기반으로, 카드 추천과 상세 설명을 단계적으로 제공하는 자연어 기반 챗봇 시스템입니다.
-<img width="600" height="300" alt="스크린샷 2025-08-13 205527" src="https://github.com/user-attachments/assets/59b56cfa-7332-4e68-9287-71c890c599f6" />
+<img width="1009" height="385" alt="image" src="https://github.com/user-attachments/assets/33fbef04-fc9d-4a9c-b4f4-d4a39ce883e9" />
+
 ### Summary RAG
 - 사용자 요구사항과 가장 유사한 카드들을 FAISS 기반 검색으로 찾아 추천
 - 각 카드의 추천 이유와 비교 분석 제공
