@@ -77,14 +77,13 @@ python card_generator.py
 │   ├── cards_summary_with_intro.json
 │   └── embed_cards_separated.py
 │
-│
 ├── 📁 Summary RAG
 │   ├── card_generator.py
 │   ├── faiss_retriever.py
-│   └── selected_cards.json
 │
 ├── 📁 Original RAG
 │   └── original_rag.py
+│   └── selected_cards.json
 │
 ├── 📁 UI
 │   ├── app.py
@@ -108,10 +107,11 @@ python card_generator.py
 - **Summary RAG**: 
   - `card_generator.py`: 사용자가 카드 관련 질문을 입력하면 Summary RAG의 retriever가 FAISS 기반 검색으로 상위 3개 카드 후보를 찾고, GPT로 추천·비교 분석을 생성하며, 선택된 카드는 Original RAG를 통해 상세 약관·혜택 정보를 검색·생성하는 콘솔형 카드 추천 메인 실행 파일
   - `faiss_retriever.py`: 저장된 카드 임베딩을 불러온 뒤, 사용자의 질문을 벡터화하여 FAISS 코사인 유사도 기반으로 가장 관련성 높은 카드를 찾아주는 Summary RAG의 retriever 역할을 수행하는 대화형 검색 파일
-  - `selected_cards.json`: 사용자에게 맞춤형으로 추천된 카드들 중에서 사용자가 선택한 1가지의 카드 정보
 
 - **Original RAG**: 
   - `original_rag.py`: 사용자의 질의를 받아 FAISS, BM25, RRF, Crossencoder Reranker를 통해 가장 관련성 높은 문서를 찾아내고, 이를 GPT-4o에 전달해 1차 응답을 생성한 뒤 GPT-4로 한 번 더 다듬어 최종적으로 명확하고 완성도 높은 답변을 제공하는 파일
+  - `selected_cards.json`: 사용자에게 맞춤형으로 추천된 카드들 중에서 사용자가 선택한 1가지의 카드 정보
+
 
 ### UI
 - `app.py`: FastAPI 기반의 백엔드 엔트리포인트로, 루트(/)에서 example.html을 렌더링하고 /recommend(POST)에서 사용자 입력을 받아 RAG Generator + Rewrite를 실행해 응답과 후속 질문을 관리합니다. 동시에 정적 파일(/static)을 서빙하고 .env 환경변수도 로드하며, 로컬 개발은 uvicorn app:app --reload 명령으로 바로 실행할 수 있도록 구성되어 있습니다
