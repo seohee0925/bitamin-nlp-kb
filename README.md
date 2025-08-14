@@ -78,12 +78,15 @@ python card_generator.py
 │   └── embed_cards_separated.py
 │
 ├── 📁 Summary RAG
-│   ├── card_generator.py
+│   ├── prompt.txt
+│   ├── summary.py
+│   ├── merged_summary.json
 │   ├── faiss_retriever.py
+│   └── card_generator.py
 │
 ├── 📁 Original RAG
+│   ├── selected_cards.json
 │   └── original_rag.py
-│   └── selected_cards.json
 │
 ├── 📁 UI
 │   ├── app.py
@@ -101,16 +104,16 @@ python card_generator.py
 ### Embeddings
 - `sep_embeddings`: 카드 추천 챗봇의 문서 검색(Retrieval) 기능을 위한 임베딩 데이터가 저장되어 있으며 카드별로 텍스트 데이터를 벡터화한 FAISS 인덱스로 구축한 결과물이 포함되어 있습니다
 - `cards_summary_with_intro.json`: 카드 요약 정보와 소개 데이터 파일
-- `embed_cards_separated.py`: 임베딩 생성 스크립트
+- `embed_cards_separated.py`: 임베딩 생성 스크립트(체크/신용카드 분리)
 
 ### RAG 시스템
-- **Summary RAG**: 
-  - `card_generator.py`: 사용자가 카드 관련 질문을 입력하면 Summary RAG의 retriever가 FAISS 기반 검색으로 상위 3개 카드 후보를 찾고, GPT로 추천·비교 분석을 생성하며, 선택된 카드는 Original RAG를 통해 상세 약관·혜택 정보를 검색·생성하는 콘솔형 카드 추천 메인 실행 파일
+- **Summary RAG**:
   - `faiss_retriever.py`: 저장된 카드 임베딩을 불러온 뒤, 사용자의 질문을 벡터화하여 FAISS 코사인 유사도 기반으로 가장 관련성 높은 카드를 찾아주는 Summary RAG의 retriever 역할을 수행하는 대화형 검색 파일
-
-- **Original RAG**: 
-  - `original_rag.py`: 사용자의 질의를 받아 FAISS, BM25, RRF, Crossencoder Reranker를 통해 가장 관련성 높은 문서를 찾아내고, 이를 GPT-4o에 전달해 1차 응답을 생성한 뒤 GPT-4로 한 번 더 다듬어 최종적으로 명확하고 완성도 높은 답변을 제공하는 파일
+  - `card_generator.py`: 사용자가 카드 관련 질문을 입력하면 Summary RAG의 retriever가 FAISS 기반 검색으로 상위 3개 카드 후보를 찾고, GPT로 추천·비교 분석을 생성하며, 선택된 카드는 Original RAG를 통해 상세 약관·혜택 정보를 검색·생성하는 콘솔형 카드 추천 메인 실행 파일
+  
+- **Original RAG**:
   - `selected_cards.json`: 사용자에게 맞춤형으로 추천된 카드들 중에서 사용자가 선택한 1가지의 카드 정보
+  - `original_rag.py`: 사용자의 질의를 받아 FAISS, BM25, RRF, Crossencoder Reranker를 통해 가장 관련성 높은 문서를 찾아내고, 이를 GPT-4o에 전달해 1차 응답을 생성한 뒤 GPT-4로 한 번 더 다듬어 최종적으로 명확하고 완성도 높은 답변을 제공하는 파일
 
 
 ### UI
