@@ -54,7 +54,8 @@ python card_generator.py
 ### Summary RAG
 - 사용자 요구사항과 가장 유사한 카드들을 FAISS 기반 검색으로 찾아 추천
 - 각 카드의 추천 이유와 비교 분석 제공
-<img width="600" height="300" alt="스크린샷 2025-08-13 205546" src="https://github.com/user-attachments/assets/509612f8-d5c6-44cb-9a92-b42e4f9c80c0" />
+<img width="832" height="397" alt="image" src="https://github.com/user-attachments/assets/a9004e49-854e-45d3-8fd4-f190e30dacba" />
+
 
 ### Original RAG
 - 선택된 카드의 PDF 약관 및 세부 혜택 정보를 분석
