@@ -116,7 +116,7 @@ python card_generator.py
   - `prompt.txt`: Summary RAG 구축을 위해 카드 상품 설명서·약관 JSON을 핵심 항목별로 자동 요약하는 프롬프트 txt 파일
   - `summary.py`: GPT-4o를 사용해 Summary RAG를 위한 카드 약관 JSON 요약본을 생성하고 저장하는 py 파일
   - `faiss_retriever.py`: 저장된 카드 임베딩을 불러온 뒤, 사용자의 질문을 벡터화하여 FAISS 코사인 유사도 기반으로 가장 관련성 높은 카드를 찾아주는 Summary RAG의 retriever 역할을 수행하는 대화형 검색 파일
-  - `card_generator.py`: 사용자가 카드 관련 질문을 입력하면 Summary RAG의 retriever가 FAISS 기반 검색으로 상위 3개 카드 후보를 찾고, GPT로 추천·비교 분석을 생성하며, 선택된 카드는 Original RAG를 통해 상세 약관·혜택 정보를 검색·생성하는 콘솔형 카드 추천 메인 실행 파일
+  - `card_generator.py`: 사용자가 카드 관련 질문을 입력하면 Summary RAG의 retriever가 FAISS 기반 검색으로 상위 k개 카드 후보를 찾고, GPT로 추천·비교 분석을 생성하며, 선택된 카드는 Original RAG를 통해 상세 약관·혜택 정보를 검색·생성하는 콘솔형 카드 추천 메인 실행 파일
 
   
 - **Original RAG**:
