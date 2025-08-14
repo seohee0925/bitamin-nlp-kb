@@ -1,5 +1,5 @@
 # KB 카드 추천 RAG 시스템 💳
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/7c2a2ed5-620f-4608-bd0b-a6da7778878f" />
+<img width="947" height="518" alt="image" src="https://github.com/user-attachments/assets/c054e6ea-aeae-4840-ae18-aa3522d6152e" />
 
 이 프로젝트는 **Dual RAG** 구조를 기반으로, 카드 추천과 상세 설명을 단계적으로 제공하는 자연어 기반 챗봇 시스템입니다. Summary RAG는 사용자가 입력한 요구사항과 가장 유사한 카드들을 FAISS 기반 검색으로 찾아 추천하고, 각 카드의 추천 이유와 비교 분석을 제공합니다.
 
