@@ -148,7 +148,7 @@ python card_generator.py
     <tr>
       <td>윤서희</td>
       <td>팀장</td>
-      <td>데이터 수집 및 전처리, Original RAG 개발(Retriever)</td>
+      <td>데이터 수집 및 전처리, Original RAG 개발</td>
     </tr>
     <tr>
       <td>서준형</td>
@@ -158,7 +158,7 @@ python card_generator.py
     <tr>
       <td>안유민</td>
       <td>팀원</td>
-      <td>데이터 수집 및 전처리, Original RAG 개발(Generator), 챗봇 구현</td>
+      <td>데이터 수집 및 전처리, Original RAG 개발, 챗봇 구현</td>
     </tr>
   </tbody>
 </table>
